@@ -1,0 +1,50 @@
+<include file="Common@Public/N_header" />
+    <style type="text/css">
+        *{margin: 0px;padding: 0px;}
+        .caption{font-family: "微软雅黑";font-size: 24px;font-weight: bold;}
+        .check{text-indent: 2%;}
+        .checkbox{display: inline-block;width: 20px;height: 20px;}
+        .center{text-align: center;}
+    </style>
+
+    <div class="am-g am-g-fixed">
+        <div class="am-u-md-6">
+            <div class="am-panel am-panel-default">
+              <div class="am-panel-hd">
+                <h3 class="am-panel-title">学生基础信息</h3>
+              </div>
+              
+              <ul class="am-list am-list-static">
+                <li>学号：{$result[0]['id']}</li>
+                <li>姓名：{$result[0]['name']}</li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="am-u-md-6">
+            <div class="am-panel am-panel-default">
+              <div class="am-panel-hd">
+                <h3 class="am-panel-title">{$result[0]['id']} <b>{$result[0]['name']}</b> 缺勤记录</h3>
+              </div>
+
+              <ul class="am-list am-list-static">
+                <foreach name="result" item="vo">
+                    <li>
+                        <if condition="$vo.type eq 1">
+                            {$vo.date} 上课未到 
+                        <elseif condition="$vo.type eq 2"/>
+                            {$vo.date} 下课未到
+                        <else /> {$vo.date} 第{$vo.raid}次抽点未到
+                        </if>
+                        <div>操作员：{$vo.admin}</div>
+                    </li>
+                </foreach>
+              </ul>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/amazeui.min.js"></script>
+
+<include file="Common@Public/N_footer" />

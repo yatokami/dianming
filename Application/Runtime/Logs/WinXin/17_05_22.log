@@ -1,0 +1,2252 @@
+[ 2017-05-22T09:38:24+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T09:40:35+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T09:40:35+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:40:42+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T09:40:43+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+
+[ 2017-05-22T09:40:45+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:40:46+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:40:51+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:40:55+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:42:30+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:43:00+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:43:14+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:43:23+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T09:43:24+08:00 ] 127.0.0.1 /WinXin/Index/login.html?nsukey=E9Y4zZDnY3GQ23qxt2%2Bjxa34Z6SYVa0PK3bTl8JMIeJXTdxgkPzCO%2B9GstjNCwW%2FbMuXOESomL9Nd83prm62%2BzQb0lwzGGhe5vtgZ%2FHOR1er80V47RJnEuwoBxV8%2FYbUSs86uyddkvF8y64Ox4WjLkIfLQZzSi5%2FhuyMqX179WBiEDXBJs772svaNN1jsPZx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:43:29+08:00 ] 127.0.0.1 /WinXin/Index?code=011aD9yK0LQBh52FDDvK0GjcyK0aD9yD&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: INSERT INTO `weixin_cache` (`openid`,`access_token`,`refresh_token`,`scope`) VALUES ('opdLfvu_83Lft7YaPtApYkyZzRk8','uk3dmXI6iAWAl9u_TFONP6ljdlsaLKGHFswrem_72ZrsE2JADz2MAVYkTMvfT4Ojtpu295xDn771BhMhSj6uT7RPt1gMbkzhwFSa8GMVUnM','SaR3nY1t8Gp98BD4WITF3rwPY_l9zqTUtIossApEgJ_eo2aR8oWawSFoA7ogG-qnU8eaw_b89DAvJ-CnORqXof7bhYoJVNynnkwgeP2wbew','snsapi_userinfo') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:43:30+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:43:35+08:00 ] 127.0.0.1 /WinXin/Index/login.html?nsukey=E9Y4zZDnY3GQ23qxt2%2Bjxa34Z6SYVa0PK3bTl8JMIeJXTdxgkPzCO%2B9GstjNCwW%2FbMuXOESomL9Nd83prm62%2BzQb0lwzGGhe5vtgZ%2FHOR1er80V47RJnEuwoBxV8%2FYbUSs86uyddkvF8y64Ox4WjLkIfLQZzSi5%2FhuyMqX179WBiEDXBJs772svaNN1jsPZx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:43:38+08:00 ] 127.0.0.1 /WinXin/Index?code=011aD9yK0LQBh52FDDvK0GjcyK0aD9yD&state=STATE&nsukey=5KXAbGxsC%2FCPYv9Np3c5WtyJMr%2Bv9EUCGxsFc5IKWagCHivwLHSM3tYM2V%2BEdhwwvydCPLKGLQTjmrVvOf3q3SAT2z%2FmLS004hqgeQR%2BdUaRgqZPqrc0akWD%2Fbmfrn8G3aI2PDq9JuVJ4Wt0Bx7qGT9ZQRTAUeOhPIcJgtq68kU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:43:45+08:00 ] 127.0.0.1 /WinXin/Index/login.html?nsukey=E9Y4zZDnY3GQ23qxt2%2Bjxa34Z6SYVa0PK3bTl8JMIeJXTdxgkPzCO%2B9GstjNCwW%2FbMuXOESomL9Nd83prm62%2BzQb0lwzGGhe5vtgZ%2FHOR1er80V47RJnEuwoBxV8%2FYbUSs86uyddkvF8y64Ox4WjLkIfLQZzSi5%2FhuyMqX179WBiEDXBJs772svaNN1jsPZx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:45:05+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T09:45:18+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:45:47+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:45:54+08:00 ] 127.0.0.1 /WinXin/Index/login.html?nsukey=8FpfvCPW6XVL2XHgU2hngJBmoM5uC8wcO5wzxVVs%2BkI5790wJP9Td61wBhBTdO2WtkAcjJwXF%2BamgXhgu95dA%2BsDSme0AtLetxdtbCbR5B09sEakLGgxzSqLsHBc2jB8KEhtjDT2xwfatbPDbqQBPoDXroA86RljpU6InSMdSkb2SyKRt%2FS7SGPVn%2FuAa90r
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:49:23+08:00 ] 127.0.0.1 /WinXin/Index/checksignature?signature=8c3fabe8fbc94f0e352ef3c627250a3406d00302&timestamp=1495417842&nonce=1452170367&openid=opdLfvtM3I53FekAY68ExJq18l4I
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: echostr D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:49:27+08:00 ] 127.0.0.1 /WinXin/Index/checksignature?signature=8c3fabe8fbc94f0e352ef3c627250a3406d00302&timestamp=1495417842&nonce=1452170367&openid=opdLfvtM3I53FekAY68ExJq18l4I
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: echostr D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:49:37+08:00 ] 127.0.0.1 /WinXin/Index?code=071ITFsi08yxjl1S7Jsi0hQGsi0ITFsl&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: INSERT INTO `weixin_cache` (`openid`,`access_token`,`refresh_token`,`scope`) VALUES ('opdLfvtM3I53FekAY68ExJq18l4I','ifs0o_JuCtAf--9z6D-eIDuMe2xukMQi2Vk54on4pgkLRpQZepa2v7ghpQa3bKRdNYcLRd4-SRXY7-C98akPKuB8oCODrxX25zo918hFPyU','dvoMbFLDHI2on3k0SDI1xpgDUScw-jKAmIhwcAq3xoXOhI3mGGTF1HnZGfemWc-qmVhGTuJfD-HKhsj3m1wYRkYS_tfISkggsqspyw-iQVw','snsapi_userinfo') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:49:40+08:00 ] 127.0.0.1 /WinXin/Index?code=071ITFsi08yxjl1S7Jsi0hQGsi0ITFsl&state=STATE&nsukey=GrPUpGBR8tHUB5Xel8JjSbgbcuv8aFLH2G4sbBC7PqiL4rFPG27wqKN0jWG9fNr0Utn8Ei6GcAKvTAfXEy9%2BCrXRKZ%2FzJX0xCADF%2FVCqvRqh45l0wgp%2FBzP9hC%2BaaGi6UjCKjQYDY3xgGAWXrhB%2BWObU22M4wjmfPBo8Mcjt9EZwgoGOGKbk04nrfjuIXFFi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:49:42+08:00 ] 127.0.0.1 /WinXin/Index?code=071ITFsi08yxjl1S7Jsi0hQGsi0ITFsl&state=STATE&nsukey=GrPUpGBR8tHUB5Xel8JjSbgbcuv8aFLH2G4sbBC7PqiL4rFPG27wqKN0jWG9fNr0Utn8Ei6GcAKvTAfXEy9%2BCrXRKZ%2FzJX0xCADF%2FVCqvRqh45l0wgp%2FBzP9hC%2BaaGi6UjCKjQYDY3xgGAWXrhB%2BWObU22M4wjmfPBo8Mcjt9EZwgoGOGKbk04nrfjuIXFFi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:50:06+08:00 ] 127.0.0.1 /WinXin/Index?code=0316vaCA1tug8i0hqFCA1Qh4CA16vaCH&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: INSERT INTO `weixin_cache` (`openid`,`access_token`,`refresh_token`,`scope`) VALUES ('opdLfvtM3I53FekAY68ExJq18l4I','AhxgjMPGf8jq1VNyIKVXQuVRdmeY0TdHzsR099xLhTsaaJiw_RBfolp987Pcylbv7qzC73iW_6_60ihL0o3LdP9FmUd5eMCpVCyKGWU7RPU','NtUY9KtIMao3sJo7YWlpG_OgJl8qTuyKtFPiB2DZc17HFZizs3-7uBhNwvuKJY3QQowjtQeHs--qIa6GZ6sZB1GC3ManhCvFrOgcnZa3PJQ','snsapi_userinfo') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:50:23+08:00 ] 127.0.0.1 /WinXin/Index?code=0316vaCA1tug8i0hqFCA1Qh4CA16vaCH&state=STATE&nsukey=DcosXoQ1gQfdMRymgkeukVqIqqjmqbqBKDNCxZ5ewyd4vCOfi8E3vZ0Os9JxGRP23hHada%2BkzQNABzwhQpMnP2lSJs0v2U3y3o1w%2FVFRMVEdW2Ki3r6jGYxxNQFML8BHl2dYuPtXGpeifRO8W0ENTvrvQUcywY0cFtjAkOs1GKDImXkha9VSzn8sumz6ZeF7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T09:52:19+08:00 ] 127.0.0.1 /WinXin/Index?code=021A9xDm0Vf6Xm1GqqEm0uawDm0A9xD3&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0060s ]
+SQL: INSERT INTO `weixin_cache` (`openid`,`access_token`,`refresh_token`,`scope`) VALUES ('opdLfvu_83Lft7YaPtApYkyZzRk8','cKsgJDFrIJtgMQht7cQfN7rvt9Z0qDIveXCwWjduGjGfWV_MbJ_Aj7Q5vnna63DDO2I-3uiKNMF2eqVHk29K3AQI5G2HXStivpfDFQCCZKg','W6xUCJL2sxsYy0XETRTI8eSK4QzcpAGJ_eTHDniktQ8wkhahSUZrDRQAwD6rCXTzKsfuWZVFLJMvRAhczmskxAddHc2lzFsAkHT7k7vEFyE','snsapi_userinfo') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:53:07+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:53:27+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:53:32+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:53:39+08:00 ] 127.0.0.1 /WinXin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:53:56+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:54:33+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:54:37+08:00 ] 127.0.0.1 /WinXin/Index?code=041YNmXX1EBD6V0qBRXX1r3cXX1YNmXt&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: INSERT INTO `weixin_cache` (`openid`,`access_token`,`refresh_token`,`scope`) VALUES ('opdLfvu_83Lft7YaPtApYkyZzRk8','A5d_pGgaNiPGCS1IztDiQmTImnrxjQ1vlWezYq6SBHZBY2D3fM0NjBCqxCNWGG55m53h0FjW0yRvJtKVs9Z1C1d_UWPbwiB2tIof9XuvA2c','Y6zURlacqoNXd6ZIrN88JU5yKFDy70cX54_n8Yp-eMom9pgsumXdwv8ufU1jt-sWpphWlg2P-oWiv5nx875phZ8POpegsZnzEPXV9pPa1mI','snsapi_userinfo') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:54:43+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:54:48+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:55:15+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:55:25+08:00 ] 127.0.0.1 /WinXin/Index?code=041YNmXX1EBD6V0qBRXX1r3cXX1YNmXt&state=STATE&nsukey=WuJfHG6rhPhvsrMhxnFrAJN%2B%2FCoQZkhnfNEjnIa2Qq%2FQl9V13jSE80ePd7XtFjJtCPDsChhMOPJw1hkTJ5ux2a%2BN7uvOJDIAb0uptb8vqiYwfk8Qjmam3XgHagd5gdnquAqGRBy14yPBw71XwPaxVBbZ8LlFYie4gHpIjcJbaVYaShkXRaYGpFsPnfe%2BSW7T
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:55:40+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:55:48+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:56:01+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:56:10+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:56:14+08:00 ] 127.0.0.1 /WinXin/Index/login.html?nsukey=8FpfvCPW6XVL2XHgU2hngJBmoM5uC8wcO5wzxVVs%2BkI5790wJP9Td61wBhBTdO2WtkAcjJwXF%2BamgXhgu95dA%2BsDSme0AtLetxdtbCbR5B09sEakLGgxzSqLsHBc2jB8KEhtjDT2xwfatbPDbqQBPoDXroA86RljpU6InSMdSkb2SyKRt%2FS7SGPVn%2FuAa90r
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:56:34+08:00 ] 127.0.0.1 /WinXin/Index/login.html?nsukey=8FpfvCPW6XVL2XHgU2hngJBmoM5uC8wcO5wzxVVs%2BkI5790wJP9Td61wBhBTdO2WtkAcjJwXF%2BamgXhgu95dA%2BsDSme0AtLetxdtbCbR5B09sEakLGgxzSqLsHBc2jB8KEhtjDT2xwfatbPDbqQBPoDXroA86RljpU6InSMdSkb2SyKRt%2FS7SGPVn%2FuAa90r
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T09:58:34+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T09:58:36+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T10:00:48+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:00:52+08:00 ] 127.0.0.1 /WinXin/Index/login.html?nsukey=iJCOW1eVB7Zqd1fxURPvVRk6SrNn46tNQ8eJJs2JJOYjBbFrreAbn9d0uS4xKMg857%2Flx6GCYy4UG0Tj2qNkYBaq5rz5XkujS2tyNiyExmKDXBpK1MABNQPzPDkWiYdFt21EgbSfcpOzfhbUaV%2FEG5lHKWxymDSDBstKCFLim%2BuJsfPnTD5apQeuJoCIq2RS
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T10:00:56+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:00:57+08:00 ] 127.0.0.1 /WinXin/Index?code=0112iaWv1gZTbd0HfhVv1bj8Wv12iaWB&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0060s ]
+SQL: INSERT INTO `weixin_cache` (`openid`,`access_token`,`refresh_token`,`scope`) VALUES ('opdLfvu_83Lft7YaPtApYkyZzRk8','VVzUOXAOsM21WGvthw1TLFrJ70PuePIfsvaeth2N615iWJK8gzTRlBbKMSTPJ0RDk9_HKy12YXNpoLSgkF4VyAf3TycrxnhSOMIPtE_n5gM','AxAReK_iVbj73yu0BSNb-gKr8YA7F1nWLpCHpXKLKwQHBWAB38wuT_xapylY__ioFQ6hs7LPJQ01yIz7qNESju_dBpgzjFVeMBdE2U3k5AY','snsapi_userinfo') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:01:00+08:00 ] 127.0.0.1 /WinXin/Index?code=0112iaWv1gZTbd0HfhVv1bj8Wv12iaWB&state=STATE&nsukey=1QNIN8pW%2FHiegrjBZyKWyu537YFONuB5wg7SDVqoP4CBT3iK85BRt4jxuMPapjtXQr33EsooX4xOqyyf2Z2ZH6Ro5F%2BSqKB9oYGuMNu4oU0hHShUmv6ljt0XpB8aqWpz24ECaRGA6rgt5klsHcpjC%2Fq1xswG%2FeohtTzeLO5RzP4mTttNJk%2FawmxNj1K0OrY2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:01:04+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T10:03:05+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 22 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:03:06+08:00 ] 127.0.0.1 /WinXin/Index/login.html?nsukey=PE%2FR6Mi4LNCdevpcKZsbZrqXtbEQTWG3s4UjT6n6Qaq6A7vPaXoucAmVCffzzFiPwclBKGCINpyoqgqomQDkMWNAU0V56s8stqF2LXdOTY4aMGY8WD3HZECSXxpS0r8na%2BxknkHllNChfVPlSqGlrrRhla1%2BawSsWf9mnQVwkZQHL3ohiLJiDd23VM7t3YC%2B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 22 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T10:03:16+08:00 ] 127.0.0.1 /WinXin/Index/login.html?nsukey=PE%2FR6Mi4LNCdevpcKZsbZrqXtbEQTWG3s4UjT6n6Qaq6A7vPaXoucAmVCffzzFiPwclBKGCINpyoqgqomQDkMWNAU0V56s8stqF2LXdOTY4aMGY8WD3HZECSXxpS0r8na%2BxknkHllNChfVPlSqGlrrRhla1%2BawSsWf9mnQVwkZQHL3ohiLJiDd23VM7t3YC%2B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 22 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2017-05-22T10:04:58+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 22 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:11:08+08:00 ] 127.0.0.1 /WinXin/Index/login.html?nsukey=iJCOW1eVB7Zqd1fxURPvVRk6SrNn46tNQ8eJJs2JJOYjBbFrreAbn9d0uS4xKMg857%2Flx6GCYy4UG0Tj2qNkYBaq5rz5XkujS2tyNiyExmKDXBpK1MABNQPzPDkWiYdFt21EgbSfcpOzfhbUaV%2FEG5lHKWxymDSDBstKCFLim%2BuJsfPnTD5apQeuJoCIq2RS
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 22 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:12:33+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 22 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:13:26+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 22 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:15:48+08:00 ] 127.0.0.1 /WinXin/Index?code=051aAi1F1JHH6404Pz1F1Ifo1F1aAi1e&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: INSERT INTO `weixin_cache` (`openid`,`access_token`,`refresh_token`,`scope`) VALUES ('opdLfvu_83Lft7YaPtApYkyZzRk8','VYutKSmGUrrRKNEsTq_2xFa1o5kLjB7x2TQXV0qsW7cnDCZHDu4wWK_rrpmAQJA857D10Ah1gVSQ0YxW6RxxJQtrq-vKH5MZkqcXt24Y1Eo','9hs9_f0Au4A5Plrtdz0K7_Aa_8-qTmHWE9RYTAumEcCh5n-ZVMp6yWK5ehhrJX7R1MBqwvHeJJj2Nu2aXy9SKPsIzBS9BhFAZkyv4DCeqxc','snsapi_userinfo') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:21:28+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 22 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:21:39+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 22 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:43:44+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 22 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2017-05-22T10:45:12+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:45:58+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:47:19+08:00 ] 127.0.0.1 /WinXin/Index/checksignature?signature=507f64514414c44780dc10f22b8ae18b6f52bc6f&echostr=5014016561794503612&timestamp=1495421320&nonce=1479948517
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:47:21+08:00 ] 127.0.0.1 /WinXin/Index/checksignature?signature=7b97dedc4389f7dcf65854d5312c7ef8a2e1c04c&echostr=1021183078575829965&timestamp=1495421321&nonce=2027617356
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T10:47:26+08:00 ] 127.0.0.1 /WinXin/Index/checksignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: signature D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: timestamp D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined index: nonce D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: echostr D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 30 行.
+
+[ 2017-05-22T10:47:42+08:00 ] 127.0.0.1 /WinXin/Index/checksignature?signature=2dd16fd7348e64799ec6183ecbdadf934d249a0f&echostr=4608657934911722474&timestamp=1495421344&nonce=432333754
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:47:51+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+
+[ 2017-05-22T10:48:06+08:00 ] 127.0.0.1 /WinXin/Index/checksignature?signature=6347edc11ab25939176595edf4f2ea8fb5e67525&echostr=2259061750179721663&timestamp=1495421369&nonce=849385949
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:49:20+08:00 ] 127.0.0.1 /WinXin/Index/checksignature?signature=d2cd2b5f0a2bfe2b055fc79a01a1f24dafd58b28&echostr=738260010225850119&timestamp=1495421442&nonce=87875410
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:49:23+08:00 ] 127.0.0.1 /WinXin/Index/checksignature?signature=99500920290178c8284302cf99cc21cb50354375&echostr=254152978087018039&timestamp=1495421444&nonce=1720058473
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:49:25+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+
+[ 2017-05-22T10:49:29+08:00 ] 127.0.0.1 /WinXin/Index/checksignature?signature=57e9fd6877999c3b066f61b109cbdda62120afd3&echostr=416276212410644206&timestamp=1495421452&nonce=1265564788
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:50:00+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:50:25+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:50:27+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:50:30+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:50:31+08:00 ] 127.0.0.1 /WinXin/Index?code=061FYMd115ffw121eZa11caBd11FYMdq&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0060s ]
+SQL: INSERT INTO `weixin_cache` (`openid`,`access_token`,`refresh_token`,`scope`) VALUES ('opdLfvu_83Lft7YaPtApYkyZzRk8','WUh7zDsnrBJ2ko6QKijE0QOOBt44WINdsLBe2_YtRZ72pHlp9gDTSjSwpUxfZ54it01JwdviMFQxw9DALafpQjaoVJ5sT2TH3hF3JI-5XJ0','5d8I_7zCCV6wlJcr4lS9WimhBmRLCAGWJK_rJdnvEYWOnDfDBIV1b2aAD5q2mWeXM0Je2_9bcdvqNneIvmwd8Y7lZRmd9Gkw-tcP3qfzD6c','snsapi_userinfo') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T10:50:39+08:00 ] 127.0.0.1 /WinXin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:54:05+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T10:54:41+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:55:48+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:56:09+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:56:10+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:56:31+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:56:39+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:57:03+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T10:58:32+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:58:35+08:00 ] 127.0.0.1 /WinXin/Index?code=051OdHyO1o9bR31Y65CO1b0HyO1OdHyz&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: INSERT INTO `weixin_cache` (`openid`,`access_token`,`refresh_token`,`scope`) VALUES ('opdLfvu_83Lft7YaPtApYkyZzRk8','U-MXy3MvvsL-rMgaS1kjw-n6n6NK4RR1f79ZlspeyuwRDXEl-khkfibW8idPFDqkEyI0_L3A6OOANuQTtKzc8fK2w8-4Io5geQjWNA0Erig','LrAFNFawGMNXk-BhvdzmJbwWs6uuCI4Sxe6O9okNICm9PisslyclXc5WDEoxgODDqjRox-F9ovDCYBINq2dBjwlaHMX92X4PoRC63P-4ly0','snsapi_userinfo') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T10:59:19+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T10:59:54+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:01:06+08:00 ] 127.0.0.1 /WinXin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 42 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T11:01:15+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:04:06+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:04:41+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:09:57+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:10:33+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:13:57+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T11:13:57+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:14:02+08:00 ] 127.0.0.1 /WinXin/Index?code=0618OPFP1FuKw71rbhGP142ZFP18OPFp&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-22T11:14:03+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:14:05+08:00 ] 127.0.0.1 /WinXin/User/Login/openid/opdLfvu_83Lft7YaPtApYkyZzRk8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-05-22T11:14:30+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:14:34+08:00 ] 127.0.0.1 /WinXin/Index?code=011GNAms19OcMp0g11ms1eDHms1GNAmn&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-22T11:14:36+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T11:16:51+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:16:54+08:00 ] 127.0.0.1 /WinXin/Index?code=061j2gVv14PQad0bK5Uv11pbVv1j2gVJ&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-22T11:17:16+08:00 ] 127.0.0.1 /WinXin/Index?code=061j2gVv14PQad0bK5Uv11pbVv1j2gVJ&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:17:26+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:17:30+08:00 ] 127.0.0.1 /WinXin/Index?code=051J3nQy1TEE5e0pRmPy1k1hQy1J3nQP&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-22T11:17:44+08:00 ] 127.0.0.1 /WinXin/Index?code=051J3nQy1TEE5e0pRmPy1k1hQy1J3nQP&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T11:18:32+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:18:36+08:00 ] 127.0.0.1 /WinXin/Index?code=071TNRGC0EfnSf22e3GC0eIGGC0TNRG4&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-22T11:18:52+08:00 ] 127.0.0.1 /WinXin/Index?code=071TNRGC0EfnSf22e3GC0eIGGC0TNRG4&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T11:19:21+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+
+[ 2017-05-22T11:19:31+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:19:35+08:00 ] 127.0.0.1 /WinXin/Index?code=041dWdGZ0aN5x226CgJZ0LemGZ0dWdGJ&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-22T11:19:53+08:00 ] 127.0.0.1 /WinXin/Index?code=041dWdGZ0aN5x226CgJZ0LemGZ0dWdGJ&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:19:58+08:00 ] 127.0.0.1 /WinXin/Index?code=041dWdGZ0aN5x226CgJZ0LemGZ0dWdGJ&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:20:00+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:21:03+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:21:10+08:00 ] 127.0.0.1 /WinXin/Index?code=061zo30q1OzLqn0Jh82q1Cn10q1zo30m&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-22T11:21:14+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:21:46+08:00 ] 127.0.0.1 /WinXin/Index?code=061zo30q1OzLqn0Jh82q1Cn10q1zo30m&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 47 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined index: openid D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T11:22:28+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-05-22T11:22:31+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:22:34+08:00 ] 127.0.0.1 /WinXin/Index?code=051vFQPs06l5Za19XCRs0NMTPs0vFQPs&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 48 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-22T11:24:10+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:24:43+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:29:20+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:29:55+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:33:12+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:34:01+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:34:41+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:43:38+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:43:45+08:00 ] 127.0.0.1 /WinXin/Index?code=061UcuIs0qA68b1347Is0HZnIs0UcuIL&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 48 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-22T11:44:04+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:44:41+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:49:23+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:50:05+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T11:54:06+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T11:54:40+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T11:59:29+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T12:00:06+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T12:04:04+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T12:04:37+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T12:09:21+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T12:09:54+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T12:39:21+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T13:58:47+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T13:58:52+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T13:58:54+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+
+[ 2017-05-22T14:00:18+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T14:01:09+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T14:01:14+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T14:01:16+08:00 ] 127.0.0.1 /WinXin/Index?code=0811knqb1uDEZs0qi0qb1Qnxqb11knq6&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 48 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-22T14:01:59+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T14:02:05+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-22T14:02:12+08:00 ] 127.0.0.1 /WinXin/Index?code=021wHDV81uXulT1tInT81L3KV81wHDVJ&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 48 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-22T14:04:14+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T14:04:52+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T14:09:30+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T14:10:18+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T14:14:21+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-22T14:14:59+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-22T14:20:04+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T14:20:46+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T14:24:17+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T14:25:11+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T14:25:19+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T14:25:29+08:00 ] 127.0.0.1 /WinXin/Index?code=061GDdYt1wuye90Q4NYt14L4Yt1GDdYO&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 48 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvu_83Lft7YaPtApYkyZzRk8' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-22T14:28:12+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T14:28:21+08:00 ] 127.0.0.1 /WinXin/Index?code=071P0Iu42tulsJ0opJt42sPnu42P0Iuy&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 2 for WinXin\Controller\IndexController::http(), called in D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php on line 48 and defined D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: method D:\UPUPW_AP7.0\htdocs\Application\WinXin\Controller\IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opdLfvtM3I53FekAY68ExJq18l4I' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `weixin_cache` (`openid`,`access_token`,`refresh_token`,`scope`) VALUES ('opdLfvtM3I53FekAY68ExJq18l4I','teFozqGlTvJVBYyBGGxlmT8Wzbp_vTfPMTrqkfm6mJWSLTekZP7MO7jyA-ZRfh7f5fYNq3w6wdqQ-8sshu2If3lw41ijMWdlvdftwFKYTkk','xRxButpL-bL8C30yl2Zg2k_MW6DTpIfg_8U54KFBroSV7xJ0SY5rysDinjzhtNujgVVDzB0aAJBSLpR-QA0Zai_0ceMM9drLhm_3zT5te70','snsapi_userinfo') [ RunTime:0.0010s ]
+
+[ 2017-05-22T14:29:25+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-22T14:30:14+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-22T14:34:22+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T14:35:18+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T14:39:21+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-22T14:40:59+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T14:44:14+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T14:44:54+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-22T14:49:41+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T14:50:24+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-05-22T14:54:11+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T14:54:49+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T14:59:35+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T15:00:12+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-22T15:04:09+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T15:04:46+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T15:09:33+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-22T15:10:07+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T15:14:15+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T15:14:51+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T15:19:37+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030000s ]
+
+[ 2017-05-22T15:20:10+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T15:24:11+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-22T15:24:54+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T15:29:26+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T15:30:04+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T15:34:14+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T15:34:53+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-22T15:39:42+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T15:40:26+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T15:44:08+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T15:44:45+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T15:49:31+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T15:50:08+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T15:54:09+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T15:54:46+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T15:59:26+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015000s ]
+
+[ 2017-05-22T16:00:06+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T16:04:08+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+
+[ 2017-05-22T16:04:47+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014000s ]
+
+[ 2017-05-22T16:09:37+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T16:10:19+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-22T16:14:28+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022000s ]
+
+[ 2017-05-22T16:15:07+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-22T16:19:37+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+
+[ 2017-05-22T16:20:22+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-05-22T16:21:17+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-22T16:22:02+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+
+[ 2017-05-22T16:29:33+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T16:30:15+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017000s ]
+
+[ 2017-05-22T16:31:17+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016000s ]
+
+[ 2017-05-22T16:32:12+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013000s ]
+
+[ 2017-05-22T16:39:31+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-22T16:40:18+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.055000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056000s ]
+
+[ 2017-05-22T16:41:10+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T16:42:09+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T16:49:43+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013000s ]
+
+[ 2017-05-22T16:50:27+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T16:51:19+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+
+[ 2017-05-22T16:53:02+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T16:59:26+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T17:00:02+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T17:01:04+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T17:01:45+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-05-22T17:11:01+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-05-22T17:11:34+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-05-22T17:21:03+08:00 ] 127.0.0.1 /WinXin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+

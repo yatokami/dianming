@@ -1,0 +1,101 @@
+<include file="Common@Public/N_header" />
+<style>
+.am-list {font-size: 14px}
+</style>
+
+<div class="am-g am-g-fixed">
+    <div class="am-u-lg-4 am-u-md-5 am-u-sm-centered">
+        <h1 class="am-text-center" style="margin:0">{$class}</h1>
+        <h2 class="am-text-center am-link-muted" style="margin:0">
+          <if condition="$type eq 1">上课点名
+            <elseif condition="$type eq 2" />下课点名
+            <else />第{$type - 2}次抽点
+          </if>
+        </h2>
+        <form method="post" id="form">
+            <table class="am-table am-table-striped am-table-hover">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>学号</th>
+                    <th>姓名</th>
+                </tr>
+            </thead>
+            <tbody>
+                <foreach name="user" item="vo">
+                  <tr>
+                      <td>
+                        <if condition="$vo.come EQ 1">
+                          <input type="checkbox" dm-data="{$vo.name}" name="studata[{$vo.id}]" value="true" class="am-checkbox-inline" checked>
+                        <else />
+                          <input type="checkbox" dm-data="{$vo.name}" name="studata[{$vo.id}]" value="true" class="am-checkbox-inline">
+                      </if>
+                      </td>
+                      <td>{$vo.id}</td>
+                      <td>{$vo.name}</td>
+                  </tr>
+                </foreach>
+
+            </tbody>
+            </table>
+            
+            <br />
+
+            <button
+              type="button"
+              class="am-btn am-btn-primary"
+              id="doc-prompt-toggle">
+              确定
+            </button>
+
+            <div class="am-popup" id="my-popup">
+              <div class="am-popup-inner">
+                <div class="am-popup-hd">
+                  <h4 class="am-popup-title">最终确认</h4>
+                  <span data-am-modal-close
+                        class="am-close">&times;</span>
+                </div>
+                <div class="am-popup-bd">
+                  以下人员未到
+                  <p id="my-item"></p>
+                  <input type="text" id="cadres_id" name="cadres_id" class="am-form-field" placeholder="请输入学委学号进行确认" required="required" />
+                  <div class="am-modal-footer">
+                    <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+                    <span class="am-modal-btn" data-am-modal-confirm>提交</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function my_item() {
+      var tem = [];
+      $("input:checkbox").not("input:checked").each(function() {
+        tem.push($(this).attr("dm-data"));
+      });
+      tem = tem.join("<br />");
+      return tem;
+    }
+</script>
+
+<script type="text/javascript">
+  $(function() {
+    $('#doc-prompt-toggle').on('click', function() {
+      document.getElementById('my-item').innerHTML=my_item();
+      $('#my-popup').modal({
+        relatedTarget: this,
+        onConfirm: function(e) {
+          document.getElementById("form").submit();
+        },
+        onCancel: function(e) {
+
+        }
+      });
+    });
+  });
+</script>
+<include file="Common@Public/N_footer" />

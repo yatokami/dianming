@@ -1,0 +1,45 @@
+<include file="Common@Public/N_header" />
+<style>
+.am-list {font-size: 14px}
+</style>
+
+<div class="am-g am-g-fixed">
+    <div class="am-u-lg-4 am-u-md-5 am-u-sm-centered">
+      <br />
+        <ul class="am-list am-list-border">
+            <foreach name = "User" item = "vo">
+                <li><a href="#" data-am-modal="{target: '#{$vo.class}'}">{$vo.class}</a></li>
+            </foreach>
+        </ul>
+        <foreach name = "User" item = "vo">
+            <div class="am-modal-actions" id="{$vo.class}">
+              <div class="am-modal-actions-group">
+                <ul class="am-list">
+                  <li class="am-modal-actions-header">请选择点名类型</li>
+                  <li class="am-modal-actions-primary">
+                    <a href="{:U('start')}?type=1&class={$vo.class}">上课点名</a>
+                  </li>
+                  <li class="am-modal-actions-primary">
+                    <a href="{:U('start')}?type=2&class={$vo.class}">下课点名</a>
+                  </li>
+                  <li class="am-modal-actions-danger">
+                    <a href="{:U('start')}?type=3&class={$vo.class}">第一次抽点</a>
+                  </li>
+                  <li class="am-modal-actions-danger">
+                    <a href="{:U('start')}?type=4&class={$vo.class}">第二次抽点</a>
+                  </li>
+                  <li class="am-modal-actions-danger">
+                    <a href="{:U('start')}?type=5&class={$vo.class}">第三次抽点</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="am-modal-actions-group">
+                <button class="am-btn am-btn-secondary am-btn-block" data-am-modal-close>取消</button>
+              </div>
+            </div>
+        </foreach>
+
+    </div>
+</div>
+
+<include file="Common@Public/N_footer" />

@@ -1,0 +1,808 @@
+[ 2016-09-10T01:31:30+08:00 ] 62.210.250.212 /index.php/named/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-09-10T01:31:33+08:00 ] 62.210.250.212 /Named/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 0 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: about /home/wwwroot/app.czjt.org/Application/Named/Controller/SearchController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-09-10T01:33:38+08:00 ] 112.90.82.218 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-09-10T01:33:38+08:00 ] 112.90.82.218 /Named/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 0 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: about /home/wwwroot/app.czjt.org/Application/Named/Controller/SearchController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-09-10T01:33:39+08:00 ] 113.108.21.69 /Named/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 0 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: about /home/wwwroot/app.czjt.org/Application/Named/Controller/SearchController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-09-10T04:07:45+08:00 ] 66.249.66.237 /named/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: uname /home/wwwroot/app.czjt.org/Application/Runtime/Cache/Named/0966515f69f40272b8f86720ffe02e16.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-09-10T09:16:34+08:00 ] 66.249.73.166 /named/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: uname /home/wwwroot/app.czjt.org/Application/Runtime/Cache/Named/0966515f69f40272b8f86720ffe02e16.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-09-10T10:31:24+08:00 ] 5.9.123.116 /named/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: uname /home/wwwroot/app.czjt.org/Application/Runtime/Cache/Named/0966515f69f40272b8f86720ffe02e16.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-09-10T10:52:04+08:00 ] 66.249.73.178 /named/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: uname /home/wwwroot/app.czjt.org/Application/Runtime/Cache/Named/0966515f69f40272b8f86720ffe02e16.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-09-10T12:32:16+08:00 ] 111.206.36.19 /Named/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 0 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: about /home/wwwroot/app.czjt.org/Application/Named/Controller/SearchController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-09-10T12:33:54+08:00 ] 66.249.73.166 /named/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: uname /home/wwwroot/app.czjt.org/Application/Runtime/Cache/Named/0966515f69f40272b8f86720ffe02e16.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-09-10T15:12:29+08:00 ] 120.40.52.175 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-09-10T15:12:29+08:00 ] 120.40.52.175 /Named/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 0 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: about /home/wwwroot/app.czjt.org/Application/Named/Controller/SearchController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-09-10T15:12:37+08:00 ] 120.40.52.175 /Named/Search?stime=2016-09-01&etime=2016-09-10&id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 0 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-09-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: about /home/wwwroot/app.czjt.org/Application/Named/Controller/SearchController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-09-10T15:12:39+08:00 ] 120.40.52.175 /named/search/c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0005s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) AND `class` = '' GROUP BY user_id ORDER BY user_id  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-09-10T15:12:46+08:00 ] 120.40.52.175 /named/search/c.html?stime=2016-06-01&etime=2016-09-10&class=%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B%E7%B3%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `come` = 0 GROUP BY user_id ORDER BY user_id  [ RunTime:0.0225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 134104128 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 134104128 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 134104214 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 134104214 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 134105124 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 134105124 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 134109116 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 134109116 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 144104205 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 144104205 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104101 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104101 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104102 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104102 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104103 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104103 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104108 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104108 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104109 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104109 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104113 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104113 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104115 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104115 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104116 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104116 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104121 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104121 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104124 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104124 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104125 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104125 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104127 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104127 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104128 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104128 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104130 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104130 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104132 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104132 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104134 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104134 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104138 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104138 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104139 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104139 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104142 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104142 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104144 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104144 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104146 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104146 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104147 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104147 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104149 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104149 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104153 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104153 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104154 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104154 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104155 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104155 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104202 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104202 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104203 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104203 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104204 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104204 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104205 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104205 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104209 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104209 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104210 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104210 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104211 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104211 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104212 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104212 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104217 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104217 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104219 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104219 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104224 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104224 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104225 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104225 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104226 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104226 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104228 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104228 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104229 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104229 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104230 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104230 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104231 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104231 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104232 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104232 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104236 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104236 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104237 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104237 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104239 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104239 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104240 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104240 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104242 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104242 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104243 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104243 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104245 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154104245 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105101 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105101 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105102 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105102 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105103 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105103 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105104 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105104 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105105 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105105 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105108 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105108 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105109 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105109 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105110 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105110 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105113 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105113 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105114 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105114 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105117 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105117 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105118 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105118 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105120 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105120 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105121 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105121 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105123 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105123 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105124 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105124 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105126 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105126 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105128 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105128 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105129 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105129 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105131 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105131 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105132 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105132 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105134 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105134 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105135 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105135 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105138 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105138 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105139 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105139 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105141 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105141 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105142 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105142 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105143 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105143 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105145 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105145 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105147 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105147 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105148 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105148 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105149 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105149 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105150 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105150 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105151 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105151 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105154 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105154 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105155 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105155 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105157 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105157 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105201 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105201 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105202 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105202 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105203 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105203 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105205 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105205 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105206 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105206 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105207 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105207 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105208 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105208 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105209 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105209 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105211 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105211 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105212 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105212 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105214 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105214 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105216 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105216 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105217 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105217 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105218 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105218 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105220 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105220 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105222 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105222 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105223 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105223 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105224 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105224 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105225 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105225 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105226 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105226 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105227 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105227 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105228 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105228 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105229 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105229 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105231 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105231 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105232 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105232 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105236 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105236 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105237 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105237 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105239 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105239 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105240 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105240 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105241 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105241 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105243 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105243 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105244 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154105244 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109103 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109103 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109104 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109104 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109106 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109106 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109110 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109110 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109111 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109111 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109113 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109113 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109114 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109114 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109115 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109115 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109120 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109120 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109122 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109122 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109125 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109125 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109126 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109126 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109127 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109127 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109128 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109128 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109131 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109131 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109133 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109133 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109134 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109134 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109135 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109135 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109136 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109136 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109137 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109137 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109138 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109138 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109139 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109139 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109140 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109140 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109141 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109141 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109143 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109143 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109144 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109144 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` < 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109145 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_log` WHERE `come` = 0 AND `type` >= 3 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '2016-06-01' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= '2016-09-10'  ) AND `user_id` = 154109145 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-09-10T15:12:53+08:00 ] 120.40.52.175 /named/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 0 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: about /home/wwwroot/app.czjt.org/Application/Named/Controller/SearchController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-09-10T15:12:54+08:00 ] 120.40.52.175 /named/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 0 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: about /home/wwwroot/app.czjt.org/Application/Named/Controller/SearchController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-09-10T19:00:45+08:00 ] 66.249.65.54 /named/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: uname /home/wwwroot/app.czjt.org/Application/Runtime/Cache/Named/0966515f69f40272b8f86720ffe02e16.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-09-10T19:12:12+08:00 ] 198.245.49.215 /named/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: uname /home/wwwroot/app.czjt.org/Application/Runtime/Cache/Named/0966515f69f40272b8f86720ffe02e16.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2016-09-10T19:12:14+08:00 ] 198.245.49.215 /named/dm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+
+[ 2016-09-10T19:12:16+08:00 ] 198.245.49.215 /named/revoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+
+[ 2016-09-10T20:33:04+08:00 ] 66.249.65.9 /named/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: uname /home/wwwroot/app.czjt.org/Application/Runtime/Cache/Named/0966515f69f40272b8f86720ffe02e16.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-09-10T21:25:35+08:00 ] 66.249.65.9 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-09-10T21:25:36+08:00 ] 66.249.65.7 /Named/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 0 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: about /home/wwwroot/app.czjt.org/Application/Named/Controller/SearchController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+

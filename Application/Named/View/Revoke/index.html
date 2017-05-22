@@ -1,0 +1,119 @@
+<include file="Common@Public/N_header" />
+<div class="am-g am-g-fixed">
+	<br />
+	<div class="am-u-sm-centered">
+		<form method="post">
+			<div class="am-g am-g-fixed">
+				<div class="am-u-sm-6 am-u-md-6">
+					<select name="class" data-am-selected="{btnWidth: '100%'}">
+						<option value="信息工程系" selected>班级</option>
+		                <option value="15电子信息工程技术1">15电子信息工程技术1</option>
+		                <option value="15计算机网络技术1">15计算机网络技术1</option>
+		                <option value="15计算机网络技术2">15计算机网络技术2</option>
+		                <option value="15计算机应用技术1">15计算机应用技术1</option>
+		                <option value="15计算机应用技术2">15计算机应用技术2</option>
+		                <option value="15软件技术1">15软件技术1</option>
+		                <option value="15嵌入式系统工程1">15嵌入式系统工程1</option>
+		                <option value="15图形图像制作1">15图形图像制作1</option>
+					</select>
+				</div>
+				<div class="am-u-sm-6 am-u-md-6">
+					<input type="text" class="am-form-field" name="user_id" placeholder="学号" value="{$user_id}">
+				</div>
+			</div>
+			<br />
+			<div class="am-g am-g-fixed">
+				<div class="am-u-sm-6 am-u-md-6">
+					<empty name="stime">
+						<input type="text" class="am-form-field" name="stime" value="{:date('Y-m-d',time())}" data-am-datepicker readonly required />
+					<else />
+						<input type="text" class="am-form-field" name="stime" value="{$stime}" data-am-datepicker readonly required />
+					</empty>
+				</div>
+				<div class="am-u-sm-6 am-u-md-6">
+					<input type="text" class="am-form-field" name="etime" value="{:date('Y-m-d',time())}" data-am-datepicker readonly required />
+				</div>
+			</div>
+			<br />
+			<button type="submit" class="am-btn am-btn-primary am-btn-block">查询</button>
+		</form>
+	</div>
+
+	<notempty name="result">
+		<br />
+		<br />
+
+		<form id="cancel" method="post">
+			<table class="am-table am-table-striped am-table-hover">
+				<thead>
+					<tr>
+						<td><input type="checkbox" id="checkall" /></td>
+						<td>学号</td>
+						<td class="am-hide-sm-only">姓名</td>
+						<td class="am-hide-sm-only">缺勤类型</td>
+						<td>缺勤时间</td>
+						<td class="am-hide-sm-only">操作员</td>
+					</tr>
+				</thead>
+				<tbody>
+					<foreach name="result" item="vo">
+						<label>
+							<tr>
+								<td>
+									<input type="checkbox" value="{$vo.id}" name="id[]"/>
+								</td>
+								<td>
+									{$vo.user_id}
+								</td>
+								<td class="am-hide-sm-only">
+									{$vo.user_name}
+								</td>
+								<td class="am-hide-sm-only">
+									<if condition="$vo.type EQ 1">
+										上课未到
+									<elseif condition="$vo.type EQ 2" />
+										下课未到
+									<else />
+										第{$vo[type] - 2}次抽点未到
+									</if>
+								</td>
+								<td>
+									{$vo.date}
+								</td>
+								<td class="am-hide-sm-only">
+									{$vo.admin}
+								</td>
+							</tr>
+						</label>
+					</foreach>
+				</tbody>
+			</table>
+			<button id="revoke" type="button" class="am-btn am-btn-primary am-btn-block" onclick="sub()">
+				<i class="am-icon-spinner am-icon-spin" style="display:none"></i>
+				销假
+			</button>
+		</form>
+	</notempty>
+</div>
+
+<script type="text/javascript">
+	function sub() {
+		$('i').removeAttr('style');
+
+		var id = [];
+		$("input[type='checkbox']:checked").each(function() {
+        	id.push($(this).val());
+      	});
+		$.ajax({
+			type:'POST',
+			url:"{:U('/named/revoke/cancel')}",
+			data:{id:id},
+			success:function(msg) {
+				alert(msg);
+				location.replace("{:U('index')}");
+			}
+		});
+	}
+	
+</script>
+<include file="Common@Public/N_footer" />

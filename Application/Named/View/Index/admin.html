@@ -1,0 +1,136 @@
+<include file="Common@Public/N_header" />
+<script type="text/javascript">
+    function add1(){
+        var input1 = document.createElement('input');
+        input1.setAttribute('type', 'text');
+        input1.setAttribute('name', 'at-sun-id[]');
+        input1.setAttribute('class', 'am-form-field');
+        input1.setAttribute('placeholder', '学号');
+        var btn1 = document.getElementById("at-sun");
+        btn1.insertBefore(input1,null);
+    }
+    function add2(){
+        var input2 = document.createElement('input');
+        input2.setAttribute('type', 'text');
+        input2.setAttribute('name', 'at-mon-id[]');
+        input2.setAttribute('class', 'am-form-field');
+        input2.setAttribute('placeholder', '学号');
+        var btn2 = document.getElementById("at-mon");
+        btn2.insertBefore(input2,null);
+    }
+    function add3(){
+        var input2 = document.createElement('input');
+        input2.setAttribute('type', 'text');
+        input2.setAttribute('name', 'at-tue-id[]');
+        input2.setAttribute('class', 'am-form-field');
+        input2.setAttribute('placeholder', '学号');
+        var btn2 = document.getElementById("at-tue");
+        btn2.insertBefore(input2,null);
+    }
+    function add4(){
+        var input2 = document.createElement('input');
+        input2.setAttribute('type', 'text');
+        input2.setAttribute('name', 'at-wed-id[]');
+        input2.setAttribute('class', 'am-form-field');
+        input2.setAttribute('placeholder', '学号');
+        var btn2 = document.getElementById("at-wed");
+        btn2.insertBefore(input2,null);
+    }
+    function add5(){
+        var input2 = document.createElement('input');
+        input2.setAttribute('type', 'text');
+        input2.setAttribute('name', 'at-thu-id[]');
+        input2.setAttribute('class', 'am-form-field');
+        input2.setAttribute('placeholder', '学号');
+        var btn2 = document.getElementById("at-thu");
+        btn2.insertBefore(input2,null);
+    }
+    function add6(){
+        var input2 = document.createElement('input');
+        input2.setAttribute('type', 'text');
+        input2.setAttribute('name', 'at-fri-id[]');
+        input2.setAttribute('class', 'am-form-field');
+        input2.setAttribute('placeholder', '学号');
+        var btn2 = document.getElementById("at-fri");
+        btn2.insertBefore(input2,null);
+    }
+    function add7(){
+        var input2 = document.createElement('input');
+        input2.setAttribute('type', 'text');
+        input2.setAttribute('name', 'at-stu-id[]');
+        input2.setAttribute('class', 'am-form-field');
+        input2.setAttribute('placeholder', '学号');
+        var btn2 = document.getElementById("at-stu");
+        btn2.insertBefore(input2,null);
+    }
+</script>
+
+<style>
+    .am-table>tbody>tr>td{
+        vertical-align: inherit;
+    }
+</style>
+
+<div class="am-g am-g-fixed">
+    <div class="am-u-sm-12">
+        <legend>出勤管理</legend> 
+        <div class="am-form-inline">
+           <!-- 部长：<input class="am-form-field am-input-sm" type="text" placeholder="叶凌" disabled> -->
+            <br>
+            <br>
+            <form class="am-form am-form-inline" method="post">
+                <table class="am-table am-table-striped am-table-hover">
+                    <thead>
+                        <th>#</th>
+                        <th>周日</th>
+                        <th>周一</th>
+                        <th>周二</th>
+                        <th>周三</th>
+                        <th>周四</th>
+                        <th>周五</th>
+                        <th>周六</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>值班人员</td>
+                            <td id="at-sun">
+                                <button class="am-btn am-btn-primary" type="button" onclick="add1();">添加</button>
+                            </td>
+
+                            <td id="at-mon">
+                                 <button class="am-btn am-btn-primary" type="button" onclick="add2();">添加</button>
+
+                            </td>
+
+                            <td id="at-tue">
+                                 <button class="am-btn am-btn-primary" type="button" onclick="add3();">添加</button>
+                            </td>
+
+                            <td id="at-wed">
+                                 <button class="am-btn am-btn-primary" type="button" onclick="add4();">添加</button>
+                            </td>
+
+                            <td id="at-thu">
+                                 <button class="am-btn am-btn-primary" type="button" onclick="add5();">添加</button>
+                            </td>
+                            <td id="at-fri">
+                                 <button class="am-btn am-btn-primary" type="button" onclick="add6();">添加</button>
+                            </td>
+                            <td id="at-stu">
+                                 <button class="am-btn am-btn-primary" type="button" onclick="add7();">添加</button>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+                <button type="submit" class="am-btn am-btn-primary">保存</button>
+                <a href="index.html" type="button" class="am-btn am-btn-primary">放弃</a>
+            </form>
+            
+        </div>
+    </div>
+</div>
+
+<include file="Common@Public/N_footer" />

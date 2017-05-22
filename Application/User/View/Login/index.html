@@ -1,0 +1,20 @@
+<include file="Common@Public/N_header" />
+
+<div class="am-g">
+    <div class="am-u-lg-4 am-u-md-5 am-u-sm-centered">
+        <legend>绑定学号</legend>
+        <form method="post" class="am-form" action="{:U('Login/bindId')}">
+            openid: <input type="text" name="openid" value={$openid} readonly>
+            <br>
+            <input type="text" name="id" placeholder="学号">
+            <br>
+            <div class="am-cf">
+                <input name="" value="绑 定" class="am-btn am-btn-primary am-btn-sm am-fl" type="submit">
+            </div>
+        </form>
+        <hr>
+<!--         <p>© 2015 &lt;/CZJT&gt;, Inc. </p> -->
+    </div>
+</div>
+
+<include file="Common@Public/N_footer" />

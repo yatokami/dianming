@@ -1,0 +1,67 @@
+<include file="Common@Public/N_header" />
+
+<style>
+    .am-table>tbody>tr>td{
+        vertical-align: inherit;
+    }
+</style>
+<div class="am-g am-g-fixed">
+    <div class="am-u-sm-12">
+        <legend>出勤管理</legend>
+        <div class="am-form-inline">
+
+            <h3>当日点名人员</h3>
+            <ul class="am-list am-list-static">
+                <foreach name="map" item="vo">
+                    <if condition="($vo.lv eq 1)">
+                        <li>{$vo.name}</li>
+                    </if>
+                </foreach>
+            </ul>
+            
+            <if condition="$lv EGT 5">
+
+                <button
+                  type="button"
+                  class="am-btn am-btn-primary"
+                  id="doc-prompt-toggle">
+                  输入式授权
+                </button>
+
+                <div class="am-modal am-modal-prompt" tabindex="-1" id="my-prompt">
+                  <div class="am-modal-dialog">
+                    <div class="am-modal-hd">请输入当日点名人员学号</div>
+                    <div class="am-modal-bd">
+                      <!-- 来来来，吐槽点啥吧 -->
+                      <form id="form" action="index/power_add">
+                        <input type="text" class="am-modal-prompt-input" name="id">
+                        <input type="hidden" name="lv" value="1" />
+                    </form>
+                    </div>
+                    <div class="am-modal-footer">
+                      <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+                      <span class="am-modal-btn" data-am-modal-confirm>提交</span>
+                    </div>
+                  </div>
+                </div>
+                <script type="text/javascript">
+                    $(function() {
+                      $('#doc-prompt-toggle').on('click', function() {
+                        $('#my-prompt').modal({
+                          relatedTarget: this,
+                          onConfirm: function(e) {
+                            var t = e.data;
+                            $("#form").submit();
+                          },
+                        });
+                      });
+                    });
+
+                </script>
+            </if>
+            
+        </div>
+    </div>
+</div>
+
+<include file="Common@Public/N_footer" />

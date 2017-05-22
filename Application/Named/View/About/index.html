@@ -1,0 +1,48 @@
+<include file="Common@Public/N_header" />
+<style>
+.am-list {font-size: 14px}
+</style>
+
+<div class="am-g am-g-fixed">
+
+	<div class="am-tabs" data-am-tabs="{noSwipe: 1}">
+	  <ul class="am-tabs-nav am-nav am-nav-tabs am-nav-justify">
+	    <li class="am-active"><a href="#tab1">关于</a></li>
+	    <li><a href="#tab3">FAQ</a></li>
+	    <li><a href="#tab4">日志</a></li>
+	  </ul>
+
+	  <div class="am-tabs-bd">
+	    <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+	      <div id="about"></div>
+	    </div>
+	    <div class="am-tab-panel am-fade" id="tab3">
+	      <div id="FAQ">{json:1}</div>
+	    </div>
+	    <div class="am-tab-panel am-fade" id="tab4">
+	      <div id="update"></div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- <div id="markdown" class="am-panel-bd">
+
+	</div> -->
+</div>
+
+<script src="__PUBLIC__/js/markdown.min.js"></script>
+
+<script>
+$(function(){
+    $.get("__PUBLIC__/about.md", {json:1}, function(data,status){
+        document.getElementById("about").innerHTML = markdown.toHTML(data);
+    });
+    $.get("__PUBLIC__/FAQ.md", {json:1}, function(data,status){
+        document.getElementById("FAQ").innerHTML = markdown.toHTML(data);
+    });
+    $.get("__PUBLIC__/update_log.md", {json:1}, function(data,status){
+        document.getElementById("update").innerHTML = markdown.toHTML(data);
+    });
+
+});
+</script>

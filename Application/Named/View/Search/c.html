@@ -1,0 +1,79 @@
+<include file="Common@Public/N_header" />
+
+<script></script>
+
+<div class="am-g am-g-fixed">
+    <div class="am-u-md-6 am-u-sm-centered">
+        <ul class="am-nav am-nav-pills am-nav-justify" style="padding-top:15px">
+            <li><a href="{:U('/named/search')}">个人查询</a></li>
+            <li class="am-active"><a href="{:U('named/search/c')}">班级查询</a></li>
+        </ul>
+        <br>
+        <form class="am-form">
+            <div class="am-g am-g-fixed">
+                <div class="am-u-sm-6">
+                    <if condition = "($start NEQ null)">
+                        <input type="text" class="am-form-field" name="stime" value="{$start}" data-am-datepicker readonly>
+                    <else />
+                        <input type="text" class="am-form-field" name="stime" value="{:date('Y-m-d',time())}" data-am-datepicker readonly>
+                    </if>
+                </div>
+                <div class="am-u-sm-6">
+                    <if condition = "($end NEQ null)">
+                        <input type="text" class="am-form-field" name="etime" value="{$end}" data-am-datepicker readonly>
+                    <else />
+                        <input type="text" class="am-form-field" name="etime" value="{:date('Y-m-d',time())}" data-am-datepicker readonly>
+                    </if>
+                </div>
+            </div>
+            <p><select data-am-selected="{btnWidth: '100%'}" name="class">
+                <option value="信息工程系">全部</option>
+                <option value="15电子信息工程技术1">15电子信息工程技术1</option>
+                <option value="15计算机网络技术1">15计算机网络技术1</option>
+                <option value="15计算机网络技术2">15计算机网络技术2</option>
+                <option value="15计算机应用技术1">15计算机应用技术1</option>
+                <option value="15计算机应用技术2">15计算机应用技术2</option>
+                <option value="15软件技术1">15软件技术1</option>
+                <option value="15嵌入式系统工程1">15嵌入式系统工程1</option>
+                <option value="15图形图像制作1">15图形图像制作1</option>
+            </select></p>
+            <button class="am-btn am-btn-primary am-btn-block" type="submit" target="_blank">查询</button>
+            <br />
+            <notempty name="rough">
+                <a class="am-btn am-btn-primary am-btn-block" type="button" href="{:U('Named/Inout/expUser')}?stime={$start}&etime={$end}&class={$class}" >导出EXCEL</a>
+            </notempty>
+        </form>
+        <notempty name="rough">
+            <table class="am-table" id="info">
+                <thead>
+                    <tr>
+                        <th>学号</th>
+                        <th>姓名</th>
+                        <th>次数</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <volist  name="rough" id="vo" >
+                        <tr>
+                            <td>{$vo.user_id}</td>
+                            <td>{$vo.user_name}</td>
+                            <td>{$vo.count}</td>
+                        </tr>
+                    </volist>
+                </tbody>
+            </table>
+        </notempty>
+    </div>
+</div>
+
+<script type="text/javascript">
+var tem = "{$class}";
+if (tem != null) {
+    var option= document.getElementsByTagName('option');
+    for(var i in option) {
+        if (option[i].value == tem) {
+            option[i].selected='selected';
+        };
+    }
+};
+</script>

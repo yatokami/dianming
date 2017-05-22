@@ -1,0 +1,24 @@
+<include file="Common@Public/N_header" />
+<script></script>
+
+<div class="am-g am-g-fixed">
+    <div class="am-u-md-6 am-u-sm-centered">
+        <div class="dropdown">
+            <foreach name = "User" item = "vo">
+                <!-- Single button -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown" aria-expanded="false" style="width:170px;text-align:left;">
+                        {$vo.class}
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="{:U('start')}?type=1&class={$vo.class}">上课点名</a></li>
+                        <li><a href="{:U('start')}?type=2&class={$vo.class}">下课点名</a></li>
+                        <!--<li><a href="{:U('start')}?type=3&class={$vo.class}">抽点</a></li>-->
+                    </ul>
+                </div>
+                <br />
+            </foreach>
+            </div>
+    </div>
+</div>
+<include file="Common@Public/N_footer" />

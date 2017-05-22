@@ -1,0 +1,92 @@
+<include file="Common@Public/N_header" />
+
+<script></script>
+
+<div class="am-g am-g-fixed">
+	<div class="am-u-md-6 am-u-sm-centered">
+		<ul class="am-nav am-nav-pills am-nav-justify" style="padding-top:15px">
+			<li class="am-active"><a href="{:U('/named/search')}">个人查询</a></li>
+			<li><a href="{:U('named/search/c')}">班级查询</a></li>
+		</ul>
+		<br>
+		<form class="am-form">
+			<div class="am-g am-g-fixed">
+				<div class="am-u-sm-6">
+					<if condition = "($start NEQ null)">
+						<input type="text" class="am-form-field" name="stime" value="{$start}" data-am-datepicker readonly>
+					<else />
+						<input type="text" class="am-form-field" name="stime" value="{:date('Y-m-d',time())}" data-am-datepicker readonly>
+					</if>
+				</div>
+				<div class="am-u-sm-6">
+					<input type="text" class="am-form-field" name="etime" value="{:date('Y-m-d',time())}" data-am-datepicker readonly>
+				</div>
+			</div>
+
+			<p><div class="am-input-group">
+				<input type="text" class="am-form-field" placeholder="学号" value="{$user_id}" name="id">
+				<span class="am-input-group-btn">
+					<button class="am-btn am-btn-default" type="submit">查询</button>
+				</span>
+			</div></p>
+		</form>
+		<if condition="($user_id NEQ NULL) AND ($rough EQ NULL)">
+			<p class="am-text-primary">恭喜你没有旷课记录呢O(∩_∩)O~~</p>
+		</if>
+		<notempty name="rough">
+			<table class="am-table">
+				<thead>
+					<tr>
+						<th>学号</th>
+						<th>姓名</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>{$rough['user_id']}</td>
+						<td>{$rough['user_name']}</td>
+					</tr>
+				</tbody>
+			</table>
+		
+			<button type="button" class="am-btn am-btn-primary am-btn-block" data-am-modal="{target: '#my-popup'}">
+				总计：{$rough['count']}次 点击查看详情
+			</button>
+
+			<div class="am-popup" id="my-popup">
+			  <div class="am-popup-inner">
+				<div class="am-popup-hd">
+				  <h4 class="am-popup-title">详情</h4>
+				  <span data-am-modal-close
+						class="am-close">&times;</span>
+				</div>
+				<div class="am-popup-bd">
+
+				  <foreach name="about" item="vo">
+					<div class="am-panel am-panel-primary">
+					  <div class="am-panel-bd">
+					  	学号：{$vo.user_id}<br />
+					  	姓名：{$vo.user_name}<br />
+					  	类型：
+					  	<if condition="$vo.type EQ 1">上课点名未到
+					  		<elseif condition="$vo.type EQ 2" />下课点名未到
+					  		<else />第{$vo['type']-2}次抽点未到
+					  	</if><br />
+					  	时间：{$vo.date}<br />
+					  	操作员：{$vo.admin}<br />
+					  	签名班委: {$vo.cadres_id}<br />					    
+					  </div>
+					</div>
+				  </foreach>
+
+				</div>
+				<div class="am-modal-footer">
+				  <span class="am-modal-btn">确定</span>
+				</div>
+			  </div>
+			</div>
+		</notempty>
+	</div>
+</div>
+
+<include file="Common@Public/N_footer" />
