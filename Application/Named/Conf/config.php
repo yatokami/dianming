@@ -5,6 +5,7 @@ return array(
 		'查询情况' => '/named/search',
 		'点名系统' => '/named/dm',
 		'销假管理' => '/named/revoke',
-		'抽点系统' => '/named/raid'
+		'抽点系统' => '/named/raid',
+		'考试系统' => '/named/exam'
 	],
 );

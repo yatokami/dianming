@@ -62,6 +62,13 @@
                     <span class="am-navbar-label">销假</span>
                 </a>
             </li>
+
+            <li>
+                <a href="<?php echo U('/named/exam');?>">
+                    <span class="am-icon-check-square-o"></span>
+                    <span class="am-navbar-label">考试</span>
+                </a>
+            </li>
         </ul>
     </div>
 
