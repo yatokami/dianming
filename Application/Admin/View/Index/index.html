@@ -1,0 +1,27 @@
+<include file="Common@Public/A_header" />
+
+<div class="am-g">
+    <div class="am-u-lg-4 am-u-md-5 am-u-sm-centered">
+        <legend>增加新管理员</legend>
+        <form method="post" class="am-form" action="{:U('Index/add_admin')}">
+            <input type="text" name="id"  placeholder="学生学号或教师工号">
+            <br>
+            <input type="password" name="pwd" placeholder="密码">
+            <br>
+            <div class="am-form-group">
+		      <label class="am-radio-inline">
+		        <input type="radio" name="rad_type" value="0" checked>教师
+		      </label>
+		      <label class="am-radio-inline">
+		        <input type="radio" name="rad_type" value="1">学生管理者
+		      </label>
+		    </div>
+            <div class="am-cf">
+                <input name="" value="提交" class="am-btn am-btn-primary am-btn-sm am-fl" type="submit">
+            </div>
+        </form>
+        <hr>
+    </div>
+</div>
+
+<include file="Common@Public/N_footer" />

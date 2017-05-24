@@ -14,10 +14,10 @@ class ExamController extends Controller {
         $this->display();
     }
 
-    public function sub_exam() {
-    	$option = (int)I('option');
-    	for ($i = 1; $i <= $option; $i++) { 
-    		$answer = I('doc-radio-'.$i);
-    	}
-    }
+    // public function sub_exam() {
+    // 	$option = (int)I('option');
+    // 	for ($i = 1; $i <= $option; $i++) { 
+    // 		$answer = I('doc-radio-'.$i);
+    // 	}
+    // }
 }
