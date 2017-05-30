@@ -2,9 +2,82 @@
 
 <div class="am-g">
     <div class="am-u-lg-4 am-u-md-5 am-u-sm-centered">
-        <legend>考卷列表</legend>
-        
+        <legend>发布考卷</legend>
         <hr>
+		<div class="am-u-sm-12 am-u-md-6">
+	        <div class="am-btn-toolbar">
+	            <div class="am-btn-group am-btn-group-xs">
+	              <button type="button" class="am-btn am-btn-default" onclick="location.href='exam/add_exam'"><span class="am-icon-plus"></span> 新增</button>
+	              <button type="button" class="am-btn am-btn-default" onclick="del_exam()"><span class="am-icon-trash-o"></span> 删除</button>
+	            </div>
+	        </div>
+	    </div>
+        <table class="am-table">
+		    <thead>
+		        <tr>
+		        	<th class="table-check"><input id="CheckAll" type="checkbox" /></th>
+		            <th>考试主题</th>
+		            <th>创建时间</th>
+		            <th>操作</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		    <volist name="exam_menu" id="vo">
+		        <tr>
+		         	<td><input name="chkItem" type="checkbox" value="{$vo.m_id}" /></td>
+		            <td>{$vo.menu_title}</td>
+		            <td>{$vo.create_date|date="Y-m-d",###}</td>
+		            <td>
+			            <div class="am-btn-toolbar">
+		                    <div class="am-btn-group am-btn-group-xs">
+		                      	<button class="am-btn am-btn-default am-btn-xs am-text-secondary" onclick="add_task({$vo.m_id})"><span class="am-icon-pencil-square-o"></span>发布</button>
+		                    </div>
+	                    </div>
+	                </td>
+		        </tr>
+	        </volist>
+		    </tbody>
+		</table>
     </div>
 </div>
+<script>
+	function add_task(m_id) {
+		location.href="Exam/task?m_id="+m_id;
+	}
+
+	 //checkbox 单选事件
+    $('input[name="chkItem"]:checkbox').click(function(){
+        var isCheck = $('input[name="chkItem"]:not(:checked)').length?false:true;
+        $('#CheckAll').prop("checked",isCheck);
+    });
+
+    //checkbox 全选事件
+    $('#CheckAll').click(function(){
+        var self = $(this);
+        $('input[name="chkItem"]').each(function(){
+            $(this).prop("checked",self.is(':checked'));
+        });
+    });
+
+    function del_exam() {
+    	var m_ids = "";
+    	$('input[name="chkItem"]:checked').each(function() {
+    		var self = $(this);
+    		m_ids = m_ids + self.val() + ',';
+    	})
+    	data = {'m_ids':m_ids};
+    	$.ajax({
+            url:'exam/del_exam',
+            type:'post',
+            data: data,
+            success:function(data,status){
+            	alert("删除成功");
+            	location.reload();
+            },
+            error:function(data,status){
+            	alert("删除失败");
+            }
+        });
+    }
+</script>
 <include file="Common@Public/N_footer" />

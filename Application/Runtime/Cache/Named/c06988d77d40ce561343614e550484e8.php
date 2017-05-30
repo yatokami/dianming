@@ -69,11 +69,6 @@
                     <span class="am-navbar-label">考试</span>
                 </a>
             </li>
-            <li>
-                <a href="<?php echo U('/user/passwd');?>"><span class="am-icon-check-square-o"></span>
-                    <span class="am-navbar-label">修改密码</span>
-                </a>
-            </li>
         </ul>
     </div>
 

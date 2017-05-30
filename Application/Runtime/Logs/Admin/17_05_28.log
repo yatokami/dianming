@@ -1,0 +1,933 @@
+[ 2017-05-28T21:03:13+08:00 ] 127.0.0.1 /admin/Exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+
+[ 2017-05-28T21:03:14+08:00 ] 127.0.0.1 /Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `id` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0183s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_admin` WHERE `lv` = 10 AND `id` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002800s ]
+
+[ 2017-05-28T21:04:58+08:00 ] 127.0.0.1 /Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `id` = '144104124' AND `password` = 'eb202a7eefc593bca6736fc9c87b8e71' LIMIT 1   [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_admin` WHERE `lv` = 10 AND `id` = '144104124' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-28T21:04:58+08:00 ] 127.0.0.1 /Admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001896s ]
+
+[ 2017-05-28T21:05:02+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2017-05-28T21:05:15+08:00 ] 127.0.0.1 /Admin/Index/add_admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `id` = '14410412411' LIMIT 1   [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002345s ]
+
+[ 2017-05-28T21:16:52+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2017-05-28T21:17:09+08:00 ] 127.0.0.1 /Admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2017-05-28T21:17:11+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2017-05-28T21:18:23+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003895s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003063s ]
+
+[ 2017-05-28T21:19:35+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002561s ]
+
+[ 2017-05-28T21:23:07+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2017-05-28T21:24:12+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2017-05-28T21:30:12+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2017-05-28T21:32:38+08:00 ] 192.168.43.1 /admin/exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002948s ]
+
+[ 2017-05-28T21:32:38+08:00 ] 192.168.43.1 /Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0484s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `id` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_admin` WHERE `lv` = 10 AND `id` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2017-05-28T21:32:41+08:00 ] 192.168.43.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+
+[ 2017-05-28T21:32:41+08:00 ] 192.168.43.1 /Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `id` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_admin` WHERE `lv` = 10 AND `id` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2017-05-28T21:33:06+08:00 ] 192.168.43.1 /Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `id` = '144104114' AND `password` = '39270c7435c897c3f768205ee66de5ed' LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_admin` WHERE `lv` = 10 AND `id` = '144104114' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-28T21:33:06+08:00 ] 192.168.43.1 /Admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2017-05-28T21:33:08+08:00 ] 192.168.43.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2017-05-28T21:33:33+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2017-05-28T21:33:40+08:00 ] 192.168.43.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2017-05-28T21:50:32+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2017-05-28T21:50:57+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2017-05-28T21:51:13+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2017-05-28T21:51:28+08:00 ] 192.168.43.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2017-05-28T22:54:25+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id G:\UPUPW_AP7.0\htdocs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 70 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-05-28T22:55:16+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2017-05-28T22:55:18+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2017-05-28T22:55:33+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+NOTIC: [8] Undefined index: create_time G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 112 行.
+NOTIC: [8] Undefined index: create_time G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2017-05-28T22:56:20+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2017-05-28T22:56:26+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2017-05-28T22:56:27+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2017-05-28T22:56:32+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2017-05-28T22:56:37+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2017-05-28T23:15:33+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2017-05-28T23:16:33+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2017-05-28T23:17:02+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2017-05-28T23:17:28+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2017-05-28T23:17:49+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002039s ]
+
+[ 2017-05-28T23:19:04+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2017-05-28T23:19:14+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001989s ]
+
+[ 2017-05-28T23:19:20+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003299s ]
+
+[ 2017-05-28T23:23:20+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
+
+[ 2017-05-28T23:24:35+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002741s ]
+
+[ 2017-05-28T23:27:27+08:00 ] 127.0.0.1 /Admin/Exam/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002088s ]
+
