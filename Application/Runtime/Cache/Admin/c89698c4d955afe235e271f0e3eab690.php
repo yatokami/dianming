@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="/Public/css/amazeui.min.css"/>
     <script src="/Public/js/jquery.min.js"></script>
     <script src="/Public/js/amazeui.min.js"></script>
-    <script src="/Public/js/phone/appcan.js"></script>
-    <script src="/Public/js/phone/appcan.control.js"></script>
+    <!-- <script src="/Public/js/phone/appcan.js"></script>
+    <script src="/Public/js/phone/appcan.control.js"></script> -->
     
 </head>
 <body>
     
         <header data-am-widget="header" class="am-header am-header-default am-header-fixed">
             <h1 class="am-header-title">
-                <a href="<?php echo U('/named/search');?>" style="font-size:18px">后台管理</a>
+                <a href="#" style="font-size:18px">后台管理</a>
                 <span style="font-size:10px">V2.02</span>
             </h1>
 
