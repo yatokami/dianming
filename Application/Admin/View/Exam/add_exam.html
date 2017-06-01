@@ -9,7 +9,7 @@
                 	考试主题
               	</div>
              	<div class="am-u-sm-8 am-u-md-4">
-              	  	<input name="menu_title"  type="text" class="am-input-sm">
+              	  	<input id="menu_title" name="menu_title"  type="text" class="am-input-sm">
              	</div>
             </div>
 	       <hr>
@@ -54,13 +54,39 @@
 			<span class="am-icon-plus-square-o am-icon-md" onclick="add_fanswer()"></span>
 			<span class="am-icon-minus-square-o am-icon-md" onclick="minus_fanswer()"></span>
             <div class="am-margin">
-		        <button type="button" onclick="add_exam()" class="am-btn am-btn-primary am-btn-xs">发布</button>
+		        <button type="button" onclick="ajax_exam()" class="am-btn am-btn-primary am-btn-xs">发布</button>
 		         <button type="button" onclick="add_question()" class="am-btn am-btn-primary am-btn-xs">增加题目</button>
 		    </div>
         </form>
     </div>
 </div>
 <script>
+
+
+	//异步发送
+	function ajax_exam() {
+		if(window.confirm('确定发布？')){
+			var exams = [];
+			exams = add_exam();
+			menu_title = $('#menu_title').val();
+			data = {
+				"menu_title" : menu_title,
+				"exams" : exams,
+				"action" : "add"
+			}
+			$.ajax({
+				type: 'post',
+				url: "{:U('Exam/add_exam')}",
+				data: data,
+				success: function(data) {
+					console.log(data);
+				},
+				error: function(data, status) {
+					alert('新增时出现异常')
+				}
+			})
+		}
+	}
 
 	//发布考题
 	function add_exam() {
@@ -90,16 +116,15 @@
 					"mvalue" : 0
 				}
 				var f_answer = $(this).find("input[name='menu_answer']").eq(0).val();
-				var mvalue = $(this).find("input[name='menu_value']").eq(0).val();
 				answers.answer = f_answer;
-				answers.mvalue = mvalue;
+				answers.mvalue = 0;
 				questions.name = question;
 				questions.content.push(answers);
 			})
 			exams.push(questions);
-
 		})
-		console.log(exams);
+
+		return exams;
 	}
 
 	//添加新题目

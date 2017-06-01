@@ -59,25 +59,28 @@
         });
     });
 
+    //删除考试
     function del_exam() {
-    	var m_ids = "";
-    	$('input[name="chkItem"]:checked').each(function() {
-    		var self = $(this);
-    		m_ids = m_ids + self.val() + ',';
-    	})
-    	data = {'m_ids':m_ids};
-    	$.ajax({
-            url:'exam/del_exam',
-            type:'post',
-            data: data,
-            success:function(data,status){
-            	alert("删除成功");
-            	location.reload();
-            },
-            error:function(data,status){
-            	alert("删除失败");
-            }
-        });
+    	if(window.confirm('确认删除？')){
+	    	var m_ids = "";
+	    	$('input[name="chkItem"]:checked').each(function() {
+	    		var self = $(this);
+	    		m_ids = m_ids + self.val() + ',';
+	    	})
+	    	data = {'m_ids':m_ids};
+	    	$.ajax({
+	            url:'exam/del_exam',
+	            type:'post',
+	            data: data,
+	            success:function(data,status){
+	            	alert("删除成功");
+	            	location.reload();
+	            },
+	            error:function(data,status){
+	            	alert("删除失败");
+	            }
+	        });
+	    }
     }
 </script>
 <include file="Common@Public/N_footer" />

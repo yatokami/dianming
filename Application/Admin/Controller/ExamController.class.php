@@ -54,6 +54,27 @@ class ExamController extends BaseController {
     }
 
     public function add_exam() {
-        $this->display();
+        if(I("action")) {
+            $data1["menu_title"] = I("menu_title");
+            $data1["create_date"] = time();
+            $m_id = M('exam_menu')->add($data1);
+            $exams = I("exams");
+            for ($i = 0; $i < count($exams); $i++) { 
+                $data2["question"] = $exams[$i]["name"];
+                $data2["m_id"] = $m_id;
+                $q_id = M("exam_question")->add($data2);
+                $content = $exams[$i]["content"];
+                for ($j = 0; $j < count($content); $j++) { 
+                    $data3["q_id"] = $q_id;
+                    $data3["answer"] = $content[$j]["answer"];
+                    $data3["number"] = $content[$j]["mvalue"];
+                    M("exam_answer")->add($data3);
+                }
+            }
+
+            $this->ajaxReturn($m_id);
+        } else {
+            $this->display();
+        }
     }
 }
