@@ -11,9 +11,15 @@ class ExamController extends BaseController {
     public function task() {
         $map["m_id"] = I('m_id');
         $exam_menu = M('exam_menu')->where($map)->field('menu_title,m_id')->find();
-        $year = date("y");
-        $year2 = date("y")-1;
-        $year3 = date("y")-2;
+        if(date("m") > "9") {
+            $year = date("y");
+            $year2 = date("y")-1;
+            $year3 = date("y")-2;
+        } else {
+            $year = date("y")-1;
+            $year2 = date("y")-2;
+            $year3 = date("y")-3;
+        }
         $map2["department"] = "信息工程系";
         $map2["id"] = array('like', array("$year%","$year2%", "$year3%"), 'or');
         $class_names = M('user')->where($map2)->field('class')->group('class')->select();

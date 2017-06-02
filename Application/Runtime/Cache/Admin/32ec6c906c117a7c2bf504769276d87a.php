@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="/Public/css/amazeui.min.css"/>
     <script src="/Public/js/jquery.min.js"></script>
     <script src="/Public/js/amazeui.min.js"></script>
-    <script src="/Public/js/phone/appcan.js"></script>
-    <script src="/Public/js/phone/appcan.control.js"></script>
+    <!-- <script src="/Public/js/phone/appcan.js"></script>
+    <script src="/Public/js/phone/appcan.control.js"></script> -->
     
 </head>
 <body>

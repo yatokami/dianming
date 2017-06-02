@@ -149,25 +149,28 @@
 
 	//异步发送
 	function ajax_exam() {
-		var exams = [];
-		exams = add_exam();
-		menu_title = $('#menu_title').val();
-		data = {
-			"menu_title" : menu_title,
-			"exams" : exams,
-			"action" : "add"
-		}
-		$.ajax({
-			type: 'post',
-			url: "<?php echo U('Exam/add_exam');?>",
-			data: data,
-			success: function(data) {
-				console.log(data);
-			},
-			error: function(data, status) {
-				alert('新增时出现异常')
+		if(window.confirm('确定发布？')){
+			var exams = [];
+			exams = add_exam();
+			menu_title = $('#menu_title').val();
+			data = {
+				"menu_title" : menu_title,
+				"exams" : exams,
+				"action" : "add"
 			}
-		})
+			$.ajax({
+				type: 'post',
+				url: "<?php echo U('Exam/add_exam');?>",
+				data: data,
+				success: function(data) {
+					alert('发布成功');
+					location.href="<?php echo U('Exam/add_exam');?>";
+				},
+				error: function(data, status) {
+					alert('新增时出现异常')
+				}
+			})
+		}
 	}
 
 	//发布考题

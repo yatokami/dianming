@@ -394,3 +394,583 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
 
+[ 2017-06-01T22:07:06+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+
+[ 2017-06-01T22:07:07+08:00 ] 127.0.0.1 /Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002807s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0592s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `id` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0882s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_admin` WHERE `lv` = 10 AND `id` = '' LIMIT 1   [ RunTime:0.0095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002153s ]
+
+[ 2017-06-01T22:14:26+08:00 ] 127.0.0.1 /Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `id` = '144104124' AND `password` = 'eb202a7eefc593bca6736fc9c87b8e71' LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `named_admin` WHERE `lv` = 10 AND `id` = '144104124' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-01T22:14:26+08:00 ] 127.0.0.1 /Admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2017-06-01T22:14:28+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002322s ]
+
+[ 2017-06-01T22:14:30+08:00 ] 127.0.0.1 /Admin/exam/add_exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\4cb54ed064a57075b7b26632d5100ad0.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001454s ]
+
+[ 2017-06-01T22:17:11+08:00 ] 127.0.0.1 /Admin/Exam/add_exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0099s ]
+SQL: INSERT INTO `exam_menu` (`menu_title`,`create_date`) VALUES ('期中考试','1496326631') [ RunTime:0.0609s ]
+SQL: SHOW COLUMNS FROM `exam_question` [ RunTime:0.0043s ]
+SQL: INSERT INTO `exam_question` (`question`,`m_id`) VALUES ('1+1=？','6') [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `exam_answer` [ RunTime:0.0099s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('5','2','10') [ RunTime:0.0119s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('5','1','0') [ RunTime:0.0002s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('5','3','0') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('5','4','0') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_question` (`question`,`m_id`) VALUES ('你好','6') [ RunTime:0.0002s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('6','好','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('6','不好','0') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_question` (`question`,`m_id`) VALUES ('你健康吗','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('7','健康','10') [ RunTime:0.0002s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('7','不健康','0') [ RunTime:0.0002s ]
+SQL: INSERT INTO `exam_question` (`question`,`m_id`) VALUES ('天梯谁最高','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('8','拒绝者','10') [ RunTime:0.0003s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('8','paparuanzi','0') [ RunTime:0.0003s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('8','啪啪儿子','0') [ RunTime:0.0002s ]
+SQL: INSERT INTO `exam_question` (`question`,`m_id`) VALUES ('谁冠军','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('9','LGD','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('9','LFY','0') [ RunTime:0.0003s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('9','NB','0') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_question` (`question`,`m_id`) VALUES ('谁最牛','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('10','123','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('10','是是是','0') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('10','zhizhizhi','0') [ RunTime:0.0001s ]
+
+[ 2017-06-01T22:19:17+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001854s ]
+
+[ 2017-06-01T22:19:19+08:00 ] 127.0.0.1 /Admin/exam/add_exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\4cb54ed064a57075b7b26632d5100ad0.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2017-06-01T22:19:43+08:00 ] 127.0.0.1 /Admin/Exam/add_exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0125s ]
+SQL: INSERT INTO `exam_menu` (`menu_title`,`create_date`) VALUES ('期末考试','1496326783') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `exam_question` [ RunTime:0.0044s ]
+SQL: INSERT INTO `exam_question` (`question`,`m_id`) VALUES ('哈哈哈哈哈','7') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `exam_answer` [ RunTime:0.0087s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('11','哈哈哈','10') [ RunTime:0.0002s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('11','按键设计','0') [ RunTime:0.0002s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('11','比沉默小','0') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_question` (`question`,`m_id`) VALUES ('你好','7') [ RunTime:0.0002s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('12','不好','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('12','撒加肯定会','0') [ RunTime:0.0001s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('12','明显','0') [ RunTime:0.0001s ]
+
+[ 2017-06-01T22:19:44+08:00 ] 127.0.0.1 /Admin/exam/exam/add_exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+ERR: 非法操作:exam
+
+[ 2017-06-01T22:20:38+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2017-06-01T22:20:40+08:00 ] 127.0.0.1 /Admin/exam/add_exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\4cb54ed064a57075b7b26632d5100ad0.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2017-06-01T22:20:58+08:00 ] 127.0.0.1 /Admin/Exam/add_exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0120s ]
+SQL: INSERT INTO `exam_menu` (`menu_title`,`create_date`) VALUES ('升本考试','1496326858') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `exam_question` [ RunTime:0.0040s ]
+SQL: INSERT INTO `exam_question` (`question`,`m_id`) VALUES ('你升本成功吗','8') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `exam_answer` [ RunTime:0.0064s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('13','没升','10') [ RunTime:0.0007s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('13','成功','0') [ RunTime:0.0002s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('13','失败','0') [ RunTime:0.0001s ]
+
+[ 2017-06-01T22:20:59+08:00 ] 127.0.0.1 /Admin/exam/Admin/exam/add_exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+ERR: 非法操作:Admin
+
+[ 2017-06-01T22:21:17+08:00 ] 127.0.0.1 /Admin/exam/add_exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\4cb54ed064a57075b7b26632d5100ad0.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2017-06-01T22:21:34+08:00 ] 127.0.0.1 /Admin/Exam/add_exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002587s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0110s ]
+SQL: INSERT INTO `exam_menu` (`menu_title`,`create_date`) VALUES ('大专考试','1496326894') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `exam_question` [ RunTime:0.0040s ]
+SQL: INSERT INTO `exam_question` (`question`,`m_id`) VALUES ('英语能过吗','9') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `exam_answer` [ RunTime:0.0085s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('14','能','10') [ RunTime:0.0002s ]
+SQL: INSERT INTO `exam_answer` (`q_id`,`answer`,`number`) VALUES ('14','不能','0') [ RunTime:0.0001s ]
+
+[ 2017-06-01T22:21:35+08:00 ] 127.0.0.1 /Admin/Exam/add_exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\4cb54ed064a57075b7b26632d5100ad0.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001591s ]
+
+[ 2017-06-01T22:21:53+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2017-06-01T22:22:02+08:00 ] 127.0.0.1 /Admin/Exam/task?m_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0164s ]
+SQL: SELECT `menu_title`,`m_id` FROM `exam_menu` WHERE `m_id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0127s ]
+SQL: SELECT `class` FROM `user` WHERE `department` = '信息工程系' AND (`id` LIKE '17%' OR `id` LIKE '16%' OR `id` LIKE '15%') GROUP BY class  [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2017-06-01T22:24:47+08:00 ] 127.0.0.1 /Admin/exam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2017-06-01T22:24:49+08:00 ] 127.0.0.1 /Admin/Exam/task?m_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0110s ]
+SQL: SELECT `menu_title`,`m_id` FROM `exam_menu` WHERE `m_id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT `class` FROM `user` WHERE `department` = '信息工程系' AND (`id` LIKE '16%' OR `id` LIKE '15%' OR `id` LIKE '14%') GROUP BY class  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002722s ]
+
+[ 2017-06-01T22:22:15+08:00 ] 127.0.0.1 /Admin/Exam/task?m_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002489s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0130s ]
+SQL: SELECT `menu_title`,`m_id` FROM `exam_menu` WHERE `m_id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0094s ]
+SQL: SELECT `class` FROM `user` WHERE `department` = '信息工程系' AND (`id` LIKE '16%' OR `id` LIKE '15%' OR `id` LIKE '14%') GROUP BY class  [ RunTime:0.0122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002625s ]
+
+[ 2017-06-01T22:22:24+08:00 ] 127.0.0.1 /Admin/Exam/add_task.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `exam_task` [ RunTime:0.0101s ]
+SQL: INSERT INTO `exam_task` (`m_id`,`menu_title`,`class_name`,`create_time`,`end_time`) VALUES ('8','升本考试','14软件技术1','1496326944','1496344944') [ RunTime:0.0437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2017-06-01T22:22:25+08:00 ] 127.0.0.1 /Admin/Exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002463s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2017-06-01T22:22:30+08:00 ] 127.0.0.1 /Admin/Exam/task?m_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0141s ]
+SQL: SELECT `menu_title`,`m_id` FROM `exam_menu` WHERE `m_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT `class` FROM `user` WHERE `department` = '信息工程系' AND (`id` LIKE '16%' OR `id` LIKE '15%' OR `id` LIKE '14%') GROUP BY class  [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\c89698c4d955afe235e271f0e3eab690.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2017-06-01T22:22:36+08:00 ] 127.0.0.1 /Admin/Exam/add_task.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `exam_task` [ RunTime:0.0123s ]
+SQL: INSERT INTO `exam_task` (`m_id`,`menu_title`,`class_name`,`create_time`,`end_time`) VALUES ('7','期末考试','14软件技术1','1496326956','1496348556') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2017-06-01T22:22:37+08:00 ] 127.0.0.1 /Admin/Exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+SQL: SHOW COLUMNS FROM `exam_menu` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `exam_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\Admin\889d2a235c0f63765b6c6ab914fee77b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
