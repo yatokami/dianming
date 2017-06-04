@@ -1,7 +1,12 @@
 <?php
 namespace Named\Controller;
 use Think\Controller;
-class ExamController extends BaseController {
+class ExamController extends Controller {
+    function _initialize() {
+        $this->assign('MENU',C('MENU'));
+        $this->assign('uname',session('user')['name']);
+    }
+
     public function index() {
         $uid = session('user')['id'];
         $class = session('user')['class'];

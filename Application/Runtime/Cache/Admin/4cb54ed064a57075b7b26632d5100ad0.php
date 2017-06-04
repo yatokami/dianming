@@ -49,6 +49,12 @@
                     <span class="am-navbar-label">考试管理</span>
                 </a>
             </li>
+            <li>
+                <a href="<?php echo U('/Admin/student');?>">
+                    <span class="am-icon-check-square-o"></span>
+                    <span class="am-navbar-label">学生管理</span>
+                </a>
+            </li>
         </ul>
     </div>
 
@@ -164,7 +170,7 @@
 				data: data,
 				success: function(data) {
 					alert('发布成功');
-					location.href="<?php echo U('Exam/add_exam');?>";
+					location.href="<?php echo U('Exam/index');?>";
 				},
 				error: function(data, status) {
 					alert('新增时出现异常')

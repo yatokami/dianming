@@ -12,7 +12,7 @@ class LoginController extends Controller {
                 $this->assign('openid', session("openid"));
                 $this->display();
             } else  {
-                login($openid);
+                login(session("openid"));
                 $this->redirect('/Named/search');
             }
         } else {

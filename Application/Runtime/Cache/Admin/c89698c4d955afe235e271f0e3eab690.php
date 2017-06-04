@@ -49,6 +49,12 @@
                     <span class="am-navbar-label">考试管理</span>
                 </a>
             </li>
+            <li>
+                <a href="<?php echo U('/Admin/student');?>">
+                    <span class="am-icon-check-square-o"></span>
+                    <span class="am-navbar-label">学生管理</span>
+                </a>
+            </li>
         </ul>
     </div>
 

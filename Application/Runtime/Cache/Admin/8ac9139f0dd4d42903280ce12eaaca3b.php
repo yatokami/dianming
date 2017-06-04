@@ -93,10 +93,6 @@
 <div class="am-g">
     <div class="am-u-lg-4 am-u-md-5 am-u-sm-centered">
         <legend>导入学生教师信息</legend>
-        <div class="am-form-group am-form-file">
-          <a href="<?php echo U('Student/expUser');?>" ><button type="button" class="am-btn am-btn-default am-btn-sm">
-            <i class="am-icon-cloud-upload"></i> 导出数据并生成excel</button></a>
-        </div>
         <hr>
         <form action="<?php echo U('Student/impUser');?>" class="am-form" method="post" enctype="multipart/form-data">
             <div class="am-margin">
