@@ -1,0 +1,20 @@
+<include file="Common@Public/A_header" />
+
+<div class="am-g">
+    <div class="am-u-lg-4 am-u-md-5 am-u-sm-centered">
+        <legend>导入学生教师信息</legend>
+        <hr>
+        <form action="{:U('Student/impUser')}" class="am-form" method="post" enctype="multipart/form-data">
+            <div class="am-margin">
+            <div class="am-form-group am-form-file">
+              <button type="button" class="am-btn am-btn-default am-btn-sm">
+                <i class="am-icon-cloud-upload"></i> 选择要上传的文件</button>
+              <input type="file"  name="input">
+            </div>
+            <input type="hidden" name="table" value="tablename"/>
+            <input type="submit" class="am-btn am-btn-primary am-btn-xs" value="导入"/>
+            </div>
+        </form>
+    </div>
+</div>
+<include file="Common@Public/N_footer" />

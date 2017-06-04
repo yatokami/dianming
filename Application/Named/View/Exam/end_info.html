@@ -1,0 +1,28 @@
+<include file="Common@Public/N_header" />
+
+<form class="am-form">
+  	<fieldset style="text-align: center">
+    	<legend>{$exam_task.menu_title} 你的成绩是 : {$exam_log.sum}分</legend>
+		<foreach name="exam_questions" item="vo1" key="k">
+			<ul style="list-style: none;margin-right: 30px;text-align: left">
+				<if condition="$vo1.bool eq T">
+					<li style="color: green"><span class="am-icon-check"></span>{$k+1}: {$vo1.question}</li>
+				<else />
+					<li style="color: red"><span class="am-icon-close"></span>{$k+1}: {$vo1.question}</li>
+		        </if>
+				<foreach name="exam_option" item="vo2" key="k2">
+					<eq name="vo1.q_id" value="$vo2.q_id">
+						<if condition="$vo2.number gt 0">
+							<li  style="color: green"><input type="radio" checked>
+				        	{$vo2.answer}<span class="am-icon-check"></li>
+				        <else/>
+				        	<li><input type="radio">
+				        	{$vo2.answer}</li>
+				        </if>
+			        </eq>
+		        </foreach>
+			</ul>
+		</foreach>
+	</fieldset>
+</form>
+<include file="Common@Public/N_footer" />

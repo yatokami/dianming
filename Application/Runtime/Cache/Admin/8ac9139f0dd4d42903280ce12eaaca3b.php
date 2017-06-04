@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>C Team - 点名系统 | V2.02</title>
 
-    <link rel="stylesheet" href="__PUBLIC__/css/amazeui.min.css"/>
-    <script src="__PUBLIC__/js/jquery.min.js"></script>
-    <script src="__PUBLIC__/js/amazeui.min.js"></script>
-    <!-- <script src="__PUBLIC__/js/phone/appcan.js"></script>
-    <script src="__PUBLIC__/js/phone/appcan.control.js"></script> -->
-    <block name="style"></block>
+    <link rel="stylesheet" href="/Public/css/amazeui.min.css"/>
+    <script src="/Public/js/jquery.min.js"></script>
+    <script src="/Public/js/amazeui.min.js"></script>
+    <!-- <script src="/Public/js/phone/appcan.js"></script>
+    <script src="/Public/js/phone/appcan.control.js"></script> -->
+    
 </head>
 <body>
-    <block name="header">
+    
         <header data-am-widget="header" class="am-header am-header-default am-header-fixed">
             <h1 class="am-header-title">
                 <a href="#" style="font-size:18px">后台管理</a>
@@ -22,37 +22,35 @@
             </h1>
 
             <div class="am-header-right am-header-nav">
-                <gt name="uname" value="0">
-                    <a data-am-modal="{target: '#info'}">{$uname}
+                <?php if(($uname) > "0"): ?><a data-am-modal="{target: '#info'}"><?php echo ($uname); ?>
                         <i class="am-header-icon am-icon-sign-out"></i>
                     </a>
-                <else/>
-                    <a href="{:U('/Admin/Login/logout')}">
+                <?php else: ?>
+                    <a href="<?php echo U('/Admin/Login/logout');?>">
                         <i class="am-header-icon am-icon-sign-in"></i>
-                    </a>
-                </gt>
+                    </a><?php endif; ?>
             </div>
         </header>
-    </block>
+    
 
-    <block name="main"></block>
+    
 
     <div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default">
         <ul class="am-navbar-nav am-cf am-avg-sm-4">
             <li>
-                <a href="{:U('/Admin/Index')}">
+                <a href="<?php echo U('/Admin/Index');?>">
                     <span class="am-icon-check-square-o"></span>
                     <span class="am-navbar-label">管理员管理</span>
                 </a>
             </li>
             <li>
-                <a href="{:U('/Admin/exam')}">
+                <a href="<?php echo U('/Admin/exam');?>">
                     <span class="am-icon-check-square-o"></span>
                     <span class="am-navbar-label">考试管理</span>
                 </a>
             </li>
             <li>
-                <a href="{:U('/Admin/student')}">
+                <a href="<?php echo U('/Admin/student');?>">
                     <span class="am-icon-check-square-o"></span>
                     <span class="am-navbar-label">学生管理</span>
                 </a>
@@ -63,8 +61,8 @@
     <div class="am-modal-actions" id="info">
         <div class="am-modal-actions-group">
             <ul class="am-list">
-                <li><a href="{:U('/user/passwd')}">修改密码</a></li>
-                <li class="am-modal-actions-danger"><a href="{:U('/user/logout')}">退出</a></li>
+                <li><a href="<?php echo U('/user/passwd');?>">修改密码</a></li>
+                <li class="am-modal-actions-danger"><a href="<?php echo U('/user/logout');?>">退出</a></li>
             </ul>
         </div>
         <div class="am-modal-actions-group">
@@ -72,7 +70,7 @@
         </div>
     </div>
 
-    <block name="script"></block>
+    
     <script type="text/javascript">
         var c1c = 0;  
         window.uexOnload = function(type){  
@@ -88,5 +86,30 @@
             };  
         }  
     </script>
+</body>
+</html>
+
+
+<div class="am-g">
+    <div class="am-u-lg-4 am-u-md-5 am-u-sm-centered">
+        <legend>导入学生教师信息</legend>
+        <div class="am-form-group am-form-file">
+          <a href="<?php echo U('Student/expUser');?>" ><button type="button" class="am-btn am-btn-default am-btn-sm">
+            <i class="am-icon-cloud-upload"></i> 导出数据并生成excel</button></a>
+        </div>
+        <hr>
+        <form action="<?php echo U('Student/impUser');?>" class="am-form" method="post" enctype="multipart/form-data">
+            <div class="am-margin">
+            <div class="am-form-group am-form-file">
+              <button type="button" class="am-btn am-btn-default am-btn-sm">
+                <i class="am-icon-cloud-upload"></i> 选择要上传的文件</button>
+              <input type="file"  name="input">
+            </div>
+            <input type="hidden" name="table" value="tablename"/>
+            <input type="submit" class="am-btn am-btn-primary am-btn-xs" value="导入"/>
+            </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>

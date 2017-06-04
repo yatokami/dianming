@@ -1,0 +1,38 @@
+<include file="Common@Public/N_header" />
+
+<div class="am-g">
+    <div class="am-u-lg-4 am-u-md-5 am-u-sm-centered">
+    	<legend>考试情况</legend>
+        <ul class="am-nav am-nav-pills">
+		  <li class="{$ing_active}"><a href="{:U('Exam/index','time=ing')}">正在进行考试</a></li>
+		  <li class="{$ed_active}"><a href="{:U('Exam/index','time=ed')}">已结束考试</a></li>
+		</ul>
+        <hr>
+		
+		<table class="am-table">
+		    <thead>
+		        <tr>
+		            <th>序列</th>
+		            <th>考试主题</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		    	<if condition="count($exam_task) gt 0 ">
+		        <foreach name="exam_task" item="vo" key="k">
+		        	<tr>
+		        		<td>{$k+1}</td>
+		        		<td><a href="{:U('Exam/info', array('et_id' => $vo['et_id'], 'time_active' => $time))}">{$vo.menu_title}</a></td>
+		        	</tr>
+		        </foreach>
+		        <else />
+		        	<tr>
+		        		<td colspan="2" style="text-align: center;">无考试数据</td>
+		        	</tr>
+		        </if>
+		    </tbody>
+		</table>
+       
+    </div>
+</div>
+
+<include file="Common@Public/N_footer" />
