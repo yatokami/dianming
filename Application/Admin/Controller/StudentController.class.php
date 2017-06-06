@@ -92,7 +92,7 @@ class StudentController extends BaseController {
             $highestRow = $sheet->getHighestRow(); // 取得总行数
             $highestColumn = $sheet->getHighestColumn(); // 取得总列数
             $j=0;
-            for($i=1;$i<=$highestRow;$i++)
+            for($i=2;$i<=$highestRow;$i++)
             {
 
                 $data['id'] = $objPHPExcel->getActiveSheet()->getCell("A".$i)->getValue();

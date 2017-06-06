@@ -4,7 +4,7 @@
     <div class="am-u-lg-4 am-u-md-5 am-u-sm-centered">
         <legend>绑定学号</legend>
         <form method="post" class="am-form" action="{:U('Login/bindId')}">
-            openid: <input type="text" name="openid" value={$openid} readonly>
+             请绑定你的学号: <input type="hidden" name="openid" value={$openid} readonly>
             <br>
             <input type="text" name="id" placeholder="学号">
             <br>

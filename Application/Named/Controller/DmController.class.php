@@ -3,10 +3,25 @@ namespace Named\Controller;
 class DmController extends BaseController {
     public function index() {
         $User = M('user');  // 实例化user表
-        $UserClass = $User->field('class')->where([
-            'class'      => ['like','15%'], // 15级班级
-            'department' => '信息工程系' // 限定 信息工程系
-        ])->group('class')->select();   // 分组查询
+        if(is_admin() == '1') {
+            $map["class"] = session('user')['class'];
+            $UserClass = $User->field('class')->where($map)->group('class')->select();
+        } else if(is_admin() == '10') {
+            //获取近3界信息工程系班级信息
+            if(date("m") > "9") {
+                $year = date("y");
+                $year2 = date("y")-1;
+                $year3 = date("y")-2;
+            } else {
+                $year = date("y")-1;
+                $year2 = date("y")-2;
+                $year3 = date("y")-3;
+            }
+            $map2["department"] = "信息工程系";
+            $map2["id"] = array('like', array("$year%","$year2%", "$year3%"), 'or');
+            $UserClass = $User->field('class')->where($map2)->group('class')->select();   // 分组查询
+        }
+
 
         $this->assign('User',$UserClass);   // 将班级信息传递给前台模板
         $this->display();   // 加载前台模板

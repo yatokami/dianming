@@ -1,0 +1,218 @@
+[ 2017-06-06T22:40:21+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=bb4735dde3475d859fa71749aa68ec384499479f&timestamp=1496760261&nonce=1729065966&openid=opG2iuM07f8Bhnoc_xAVO0CwISKA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002288s ]
+
+[ 2017-06-06T22:40:50+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=d938b291d1bc0da4fd3b185ede79e9cdea819072&timestamp=1496760290&nonce=1713965587&openid=opG2iuOsjYM5r_6SRfrHT6JXT6_k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002220s ]
+
+[ 2017-06-06T22:40:52+08:00 ] 127.0.0.1 /WeiXin/Index/login/param/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+
+[ 2017-06-06T22:40:53+08:00 ] 127.0.0.1 /WeiXin/Index?code=001qUf7T1BTbt81IlG6T1oiz7T1qUf7S&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+NOTIC: [2] Missing argument 2 for WeiXin\Controller\IndexController::http(), called in G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php on line 55 and defined G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: method G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `weixin_cache` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_cache` WHERE `openid` = 'opG2iuOsjYM5r_6SRfrHT6JXT6_k' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-06T22:40:59+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=2d2188f317d5e8f4fb76d7f9fe31a0d052bdd053&timestamp=1496760299&nonce=1529960820&openid=opG2iuOsjYM5r_6SRfrHT6JXT6_k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2017-06-06T22:41:08+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=24c1a24c64d70972ce78611ffdf392c63c9172b4&timestamp=1496760308&nonce=106419427&openid=opG2iuOsjYM5r_6SRfrHT6JXT6_k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2017-06-06T22:41:10+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=f673b232939852261bb0df8d52633e63d0c87b30&timestamp=1496760310&nonce=1447067287&openid=opG2iuOsjYM5r_6SRfrHT6JXT6_k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002608s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2017-06-06T22:41:12+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=d9cfc898a8f72b99b51ea3ac558ba499cf818599&timestamp=1496760312&nonce=960495572&openid=opG2iuOsjYM5r_6SRfrHT6JXT6_k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+
+[ 2017-06-06T22:41:15+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=f1008d6d1f9c2b483976d0cee74804cf4e6b9b2f&timestamp=1496760315&nonce=673677015&openid=opG2iuOsjYM5r_6SRfrHT6JXT6_k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+
+[ 2017-06-06T22:41:17+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=bf83deaf8d0d7231c948e7fc92d3dcf6e36c7362&timestamp=1496760317&nonce=348831509&openid=opG2iuOsjYM5r_6SRfrHT6JXT6_k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002198s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+
+[ 2017-06-06T22:41:19+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=3339b1a6ce567df1a6b926415414141c8b955c13&timestamp=1496760319&nonce=1450284950&openid=opG2iuOsjYM5r_6SRfrHT6JXT6_k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001895s ]
+
+[ 2017-06-06T22:41:28+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=84c105d8342f0feb480a0119c3c513f7d44ac08a&timestamp=1496760328&nonce=604899982&openid=opG2iuOsjYM5r_6SRfrHT6JXT6_k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+
+[ 2017-06-06T22:41:38+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=38ea64c9885e3c55df4f3c05ef666ada5e00ff46&timestamp=1496760338&nonce=1650549545&openid=opG2iuKpCEvINNR7DZW4CLdy_jbA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002381s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002929s ]
+
+[ 2017-06-06T22:41:44+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=25764355b5a0c9d4920b4e83ffa6306490b7366f&timestamp=1496760344&nonce=1618178167&openid=opG2iuKpCEvINNR7DZW4CLdy_jbA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2017-06-06T22:41:59+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=847ba34bd635df0cebc5987829c60414848abe97&timestamp=1496760359&nonce=1743303313&openid=opG2iuKpCEvINNR7DZW4CLdy_jbA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002016s ]
+
+[ 2017-06-06T22:42:07+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=d3686cceb1c3b973172136131a704e6385ff9ef1&timestamp=1496760367&nonce=824579884&openid=opG2iuKpCEvINNR7DZW4CLdy_jbA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002663s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+
+[ 2017-06-06T22:42:10+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=3b29afb69c6d8bd2c7d738597dc983533d8763c5&timestamp=1496760370&nonce=2010535930&openid=opG2iuKpCEvINNR7DZW4CLdy_jbA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2017-06-06T22:42:14+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=06455c4234738892a85f9688792f1b6feea5a228&timestamp=1496760374&nonce=1554352348&openid=opG2iuKpCEvINNR7DZW4CLdy_jbA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2017-06-06T22:45:46+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=27714efef827bde65e0d300239cb64d0a28337bf&timestamp=1496760586&nonce=1950243936&openid=opG2iuKpCEvINNR7DZW4CLdy_jbA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003599s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2017-06-06T22:47:15+08:00 ] 127.0.0.1 /WeiXin/Index/checksignature?signature=6b6734114aa3c905cc0c453da2f1f23a1398563c&timestamp=1496760675&nonce=35869974&openid=opG2iuKpCEvINNR7DZW4CLdy_jbA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+NOTIC: [8] Undefined index: echostr G:\UPUPW_AP7.0\htdocs\Application\WeiXin\Controller\IndexController.class.php 第 42 行.
+

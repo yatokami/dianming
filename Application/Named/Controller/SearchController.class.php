@@ -8,9 +8,11 @@ class SearchController extends Controller {
 	}
 
 	function index() {
-		$user_id = I('get.id');  // 获取学号 
+		$user_id = I('get.id') == null?session('user')['id']:I('get.id');  // 获取学号 
 		$named_log = M('named_log'); // 实例化named_log表
 		$user = M('user');	// 实例化user表
+		$stime = I('get.stime');
+		$etime = I('get.etime');
 		// 查询粗略信息
 		$rough = $named_log->field([
 			'user_id',
@@ -20,10 +22,19 @@ class SearchController extends Controller {
 			'user_id'     => $user_id,
 			'come'        => 0,	// come值为0表示没来晚自习
 			// 时间区间查询
-			"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',I('get.stime')],['ELT',I('get.etime')]]
+			"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',$stime],['ELT',$etime]]
 		])
 		->find();
 
+		//查询近七天、三水天的数据
+		if(I('7day')) {
+			$stime = date('Y-m-d', strtotime('-7 days'));
+			$etime = date('Y-m-d',time());
+		}
+		if (I('30day')) {
+			$stime = date('Y-m-d', strtotime('-30 days'));
+			$etime = date('Y-m-d',time());
+		}
 		// 如果有粗略数据
 		if ($rough) {
 			// 为其计算缺勤次数
@@ -32,7 +43,7 @@ class SearchController extends Controller {
 				'user_id'    =>$user_id,
 				'come'       => 0,	// come值为0表示没来晚自习
 				'type'       =>['LT',3],
-				"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',I('get.stime')],['ELT',I('get.etime')]]
+				"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',$stime],['ELT',$etime]]
 			])->count();
 
 			// 计算抽点缺勤数
@@ -40,7 +51,7 @@ class SearchController extends Controller {
 				'user_id'    =>$user_id,
 				'come'       => 0,	// come值为0表示没来晚自习
 				'type'       =>['EGT',3],
-				"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',I('get.stime')],['ELT',I('get.etime')]]
+				"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',$stime],['ELT',$etime]]
 			])->count();
 
 			$count = $count1 + $count2 * 2;// 抽点未到按缺勤两节课
@@ -59,7 +70,7 @@ class SearchController extends Controller {
 				'user_id'     => $user_id,
 				'come'        => 0,	// come值为0表示没来晚自习
 				// 时间区间查询
-				"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',I('get.stime')],['ELT',I('get.etime')]]
+				"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',$stime],['ELT',$etime]]
 			])
 			->select();
 
@@ -68,13 +79,16 @@ class SearchController extends Controller {
 				$about[$key]['admin'] = $user->getFieldById($value['admin'],'name');	// 操作员学号改名字
 				$about[$key]['cadres_id'] = $user->getFieldById($value['cadres_id'],'name');	// 学委学号改名字
 			}
+
+
+
 		}
 
 		//dump($about);
 		$this->assign('user_id',$user_id); // 将学号传递给前台
 		$this->assign('rough',$rough);// 查询粗略信息传递给前台
 		$this->assign('about',$about);// 查询详细信息传递给前台
-		$this->assign('start',I('get.stime')); // 时间开始的范围传递给前台
+		$this->assign('start', $stime); // 时间开始的范围传递给前台
 		$this->display();
 	}
 
@@ -82,6 +96,18 @@ class SearchController extends Controller {
 		$named_log = M('named_log');// 实例化named_log表
 		$class = I('class'); // 获取班级
 
+		$stime = I('get.stime');
+		$etime = I('get.etime');
+
+		//查询近七天、三水天的数据
+		if(I('7day')) {
+			$stime = date('Y-m-d', strtotime('-7 days'));
+			$etime = date('Y-m-d',time());
+		}
+		if (I('30day')) {
+			$stime = date('Y-m-d', strtotime('-30 days'));
+			$etime = date('Y-m-d',time());
+		}
 		// 开始查询粗略信息
 		// 如果选择全部班级
 		if ($class == '信息工程系') {
@@ -90,7 +116,7 @@ class SearchController extends Controller {
 				'user_name' // 查询姓名列
 			])->where([
 				// 查询所选时间区间
-				"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',I('get.stime')],['ELT',I('get.etime')]],
+				"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',$stime],['ELT',$etime]],
 				// come值0表示没来晚自习
 				'come' => 0,
 			])->group('user_id')->order('user_id')->select();	// 按学号分组，升序查询
@@ -102,7 +128,7 @@ class SearchController extends Controller {
 				// come值0表示没来晚自习
 				'come' => 0,	
 				// 查询所选时间区间
-				"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',I('get.stime')],['ELT',I('get.etime')]],
+				"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',$stime],['ELT',$etime]],
 				// 查询所选班级
 				'class' => $class
 			])->group('user_id')->order('user_id')->select();	// 按学号分组，升序查询
@@ -116,7 +142,7 @@ class SearchController extends Controller {
 				$count1 = $named_log->where([
 					'come' => 0,	// come值为0表示没来晚自习
 					'type' => ['LT',3], // 小于3
-					"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',I('get.stime')],['ELT',I('get.etime')]],
+					"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',$stime],['ELT',$etime]],
 					'user_id' => $value['user_id']
 				])->count();
 
@@ -124,15 +150,32 @@ class SearchController extends Controller {
 				$count2 = $named_log->where([
 					'come' => 0,	// come值为0表示没来晚自习
 					'type' => ['EGT',3], // 大于等于3
-					"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',I('get.stime')],['ELT',I('get.etime')]],
+					"FROM_UNIXTIME(`date`,'%Y-%m-%d')" => [['EGT',$stime],['ELT',$etime]],
 					'user_id' => $value['user_id']
 				])->count();
 				$count = $count1 + ($count2 * 2);// 抽点未到按缺勤两节课
 				$rough[$key]['count'] = $count;	//添加数字元素
 			}
 		}
-		$this->assign('start',I('get.stime'));// 将开始时间传回前台模板
-		$this->assign('end',I('get.etime'));// 将结束时间传回前台模板
+
+		//获取近3界信息工程系班级信息
+		if(date("m") > "9") {
+            $year = date("y");
+            $year2 = date("y")-1;
+            $year3 = date("y")-2;
+        } else {
+            $year = date("y")-1;
+            $year2 = date("y")-2;
+            $year3 = date("y")-3;
+        }
+        $map2["department"] = "信息工程系";
+        $map2["id"] = array('like', array("$year%","$year2%", "$year3%"), 'or');
+        $class_names = M('user')->where($map2)->field('class')->group('class')->select();
+
+        $this->assign('myclasses', session('user')['class']);
+        $this->assign('classes',$class_names);// 将近3界信息工程系班级信息传递给前台模板
+		$this->assign('start',$stime);// 将开始时间传回前台模板
+		$this->assign('end',$etime);// 将结束时间传回前台模板
 		$this->assign('class',$class);// 将班级信息传回前台模板
 		$this->assign('rough',$rough);// 将查询的粗略结果传给前台模板
 		$this->display();

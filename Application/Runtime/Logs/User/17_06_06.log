@@ -1,0 +1,847 @@
+[ 2017-06-06T22:40:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+
+[ 2017-06-06T22:40:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+
+[ 2017-06-06T22:40:53+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = 'opG2iuOsjYM5r_6SRfrHT6JXT6_k' LIMIT 1   [ RunTime:0.0068s ]
+SQL: SELECT `id`,`name`,`openid`,`class` FROM `user` WHERE `openid` = 'opG2iuOsjYM5r_6SRfrHT6JXT6_k' LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2017-06-06T22:41:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+
+[ 2017-06-06T22:41:20+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = 'opG2iuOsjYM5r_6SRfrHT6JXT6_k' LIMIT 1   [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name`,`openid`,`class` FROM `user` WHERE `openid` = 'opG2iuOsjYM5r_6SRfrHT6JXT6_k' LIMIT 1   [ RunTime:0.0024s ]
+
+[ 2017-06-06T22:41:45+08:00 ] 127.0.0.1 /User/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = 'opG2iuKpCEvINNR7DZW4CLdy_jbA' LIMIT 1   [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name`,`openid`,`class` FROM `user` WHERE `openid` = 'opG2iuKpCEvINNR7DZW4CLdy_jbA' LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2017-06-06T22:42:00+08:00 ] 127.0.0.1 /User/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = 'opG2iuKpCEvINNR7DZW4CLdy_jbA' LIMIT 1   [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name`,`openid`,`class` FROM `user` WHERE `openid` = 'opG2iuKpCEvINNR7DZW4CLdy_jbA' LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2017-06-06T22:42:07+08:00 ] 127.0.0.1 /User/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = 'opG2iuKpCEvINNR7DZW4CLdy_jbA' LIMIT 1   [ RunTime:0.0058s ]
+SQL: SELECT `id`,`name`,`openid`,`class` FROM `user` WHERE `openid` = 'opG2iuKpCEvINNR7DZW4CLdy_jbA' LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2017-06-06T22:42:11+08:00 ] 127.0.0.1 /User/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = 'opG2iuKpCEvINNR7DZW4CLdy_jbA' LIMIT 1   [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name`,`openid`,`class` FROM `user` WHERE `openid` = 'opG2iuKpCEvINNR7DZW4CLdy_jbA' LIMIT 1   [ RunTime:0.0022s ]
+
+[ 2017-06-06T22:58:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+
+[ 2017-06-06T22:58:20+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001719s ]
+
+[ 2017-06-06T22:58:28+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2017-06-06T22:58:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+
+[ 2017-06-06T22:58:59+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2017-06-06T23:01:19+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002810s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2017-06-06T23:01:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+
+[ 2017-06-06T23:01:59+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009406s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-06-06T23:02:08+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2017-06-06T23:02:12+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002800s ]
+
+[ 2017-06-06T23:02:24+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002992s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2017-06-06T23:06:23+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002067s ]
+
+[ 2017-06-06T23:09:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003454s ]
+
+[ 2017-06-06T23:09:40+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2017-06-06T23:09:46+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002741s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002091s ]
+
+[ 2017-06-06T23:15:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+
+[ 2017-06-06T23:15:15+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004035s ]
+
+[ 2017-06-06T23:15:25+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002591s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2017-06-06T23:15:29+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004730s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2017-06-06T23:15:38+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
+
+[ 2017-06-06T23:16:08+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005187s ]
+ERR: Call to undefined function User\Controller\slog()
+
+[ 2017-06-06T23:16:55+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003447s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2017-06-06T23:17:01+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0509s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2017-06-06T23:23:35+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003145s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002833s ]
+
+[ 2017-06-06T23:23:52+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+ERR: Call to undefined function User\Controller\slog()
+
+[ 2017-06-06T23:25:03+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2017-06-06T23:26:39+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002325s ]
+
+[ 2017-06-06T23:26:52+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+ERR: Call to undefined function User\Controller\slog()
+
+[ 2017-06-06T23:27:40+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2017-06-06T23:27:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+
+[ 2017-06-06T23:27:54+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2017-06-06T23:29:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002959s ]
+
+[ 2017-06-06T23:29:54+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2017-06-06T23:30:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+
+[ 2017-06-06T23:30:30+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2017-06-06T23:30:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+
+[ 2017-06-06T23:30:53+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2017-06-06T23:35:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+
+[ 2017-06-06T23:35:40+08:00 ] 127.0.0.1 /User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: uname G:\UPUPW_AP7.0\htdocs\Application\Runtime\Cache\User\cd7f950d5de11f03979102b93709231a.php 第 31 行.
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001691s ]
+

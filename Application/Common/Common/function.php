@@ -17,3 +17,16 @@ function array_page($array,$rows){
     //if($admin['date'] = '今天的日期')
     return $admin['lv'];
 }
+
+function admin_login($openid) {
+    $where['openid'] = $openid;
+    $user = M('user')->field('id,name,openid,class')->where($where)->find();
+    $where2['id'] = $user['id'];
+    $count = M('named_admin')->where($where2)->count();
+    if($count != '0') {
+        session("adminid", $user['id']);
+        return $user['id'];
+    } else {
+        return NULL;
+    }
+}

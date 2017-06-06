@@ -23,7 +23,7 @@
             </div>
 
             <h1 class="am-header-title">
-                <a href="<?php echo U('/named/search');?>" style="font-size:18px">晚自习点名</a>
+                <a href="<?php echo U('/named/search');?>" style="font-size:18px">点名系统</a>
                 <span style="font-size:10px">V2.02</span>
             </h1>
 
@@ -49,7 +49,7 @@
                     <span class="am-navbar-label">查询</span>
                 </a>
             </li>
-            <li>
+        <?php if(is_admin() > '0'): ?><li>
                 <a href="<?php echo U('/named/dm');?>">
                     <span class="am-icon-check-square-o"></span>
                     <span class="am-navbar-label">点名</span>
@@ -62,7 +62,7 @@
                     <span class="am-navbar-label">销假</span>
                 </a>
             </li>
-
+        <?php else: endif; ?>
             <li>
                 <a href="<?php echo U('/named/exam');?>">
                     <span class="am-icon-check-square-o"></span>
@@ -75,8 +75,11 @@
     <div class="am-modal-actions" id="info">
         <div class="am-modal-actions-group">
             <ul class="am-list">
-                <li><a href="<?php echo U('/user/passwd');?>">修改密码</a></li>
-                <li class="am-modal-actions-danger"><a href="<?php echo U('/user/logout');?>">退出</a></li>
+                <!-- <li><a href="<?php echo U('/user/passwd');?>">修改密码</a></li> -->
+                <!-- <li class="am-modal-actions-danger"><a href="<?php echo U('/user/logout');?>">退出</a></li> -->
+                <li class="am-modal-actions-danger">
+                    <input type="button" value="退出" onclick="close_wechat()" />
+                </li>
             </ul>
         </div>
         <div class="am-modal-actions-group">
@@ -98,7 +101,10 @@
                     c1c=1; setTimeout(function(){ c1c=0; }, 2000);  
                 }  
             };  
-        }  
+        }
+        function close_wechat(){
+            WeixinJSBridge.call("closeWindow");
+        }
     </script>
 </body>
 </html>
@@ -123,8 +129,13 @@
 				<div class="am-u-sm-6">
 					<input type="text" class="am-form-field" name="etime" value="<?php echo date('Y-m-d',time());?>" data-am-datepicker readonly>
 				</div>
+				<div class="am-u-sm-6 am-margin-top">
+					<input name="7day" type="submit" class="am-btn am-btn-default am-u-sm-12" value="7天内">
+				</div>
+				<div class="am-u-sm-6 am-margin-top">
+					<input name="30day" type="submit" class="am-btn am-btn-default am-u-sm-12" value="30天内">
+				</div>
 			</div>
-
 			<p><div class="am-input-group">
 				<input type="text" class="am-form-field" placeholder="学号" value="<?php echo ($user_id); ?>" name="id">
 				<span class="am-input-group-btn">

@@ -21,8 +21,13 @@
 				<div class="am-u-sm-6">
 					<input type="text" class="am-form-field" name="etime" value="{:date('Y-m-d',time())}" data-am-datepicker readonly>
 				</div>
+				<div class="am-u-sm-6 am-margin-top">
+					<input name="7day" type="submit" class="am-btn am-btn-default am-u-sm-12" value="7天内">
+				</div>
+				<div class="am-u-sm-6 am-margin-top">
+					<input name="30day" type="submit" class="am-btn am-btn-default am-u-sm-12" value="30天内">
+				</div>
 			</div>
-
 			<p><div class="am-input-group">
 				<input type="text" class="am-form-field" placeholder="学号" value="{$user_id}" name="id">
 				<span class="am-input-group-btn">

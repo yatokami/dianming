@@ -25,17 +25,21 @@
                         <input type="text" class="am-form-field" name="etime" value="{:date('Y-m-d',time())}" data-am-datepicker readonly>
                     </if>
                 </div>
+                <div class="am-u-sm-6 am-margin-top">
+                    <input name="7day" type="submit" class="am-btn am-btn-default am-u-sm-12" value="7天内">
+                </div>
+                <div class="am-u-sm-6 am-margin-top">
+                    <input name="30day" type="submit" class="am-btn am-btn-default am-u-sm-12" value="30天内">
+                </div>
             </div>
-            <p><select data-am-selected="{btnWidth: '100%'}" name="class">
-                <option value="信息工程系">全部</option>
-                <option value="15电子信息工程技术1">15电子信息工程技术1</option>
-                <option value="15计算机网络技术1">15计算机网络技术1</option>
-                <option value="15计算机网络技术2">15计算机网络技术2</option>
-                <option value="15计算机应用技术1">15计算机应用技术1</option>
-                <option value="15计算机应用技术2">15计算机应用技术2</option>
-                <option value="15软件技术1">15软件技术1</option>
-                <option value="15嵌入式系统工程1">15嵌入式系统工程1</option>
-                <option value="15图形图像制作1">15图形图像制作1</option>
+            <p><select data-am-selected="{btnWidth: '100%',maxHeight: 200}" name="class">
+                <volist name="classes" id="vo">
+                    <eq name="vo.class" value="$myclasses">
+                        <option value="{$vo.class}" selected>{$myclasses}</option>
+                    <else/>
+                        <option value="{$vo.class}">{$vo.class}</option>
+                    </eq>
+                </volist>
             </select></p>
             <button class="am-btn am-btn-primary am-btn-block" type="submit" target="_blank">查询</button>
             <br />

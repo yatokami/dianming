@@ -3,7 +3,7 @@ namespace User\Controller;
 use Think\Controller;
 class LoginController extends Controller {
     public function index() {
-        if(session("openid")) {
+        // if(session("openid")) {
             $user = M('user');
             $map["openid"] = session("openid");
             $count = $user->where($map)->count();
@@ -15,9 +15,9 @@ class LoginController extends Controller {
                 login(session("openid"));
                 $this->redirect('/Named/search');
             }
-        } else {
-            $this->redirect('/WinXin/Index/login');
-        }
+        // } else {
+        //     $this->redirect('/WeiXin/Index/login');
+        // }
     }
 
     public function bindId() {
@@ -31,7 +31,11 @@ class LoginController extends Controller {
             } else {
                 $user->openid = session("openid");
                 $user->where($map)->save();
-                $this->success('绑定成功','/Named/search',3);
+                if(I('param')) {
+                    $this->success('绑定成功','/Admin/Index',3);
+                } else {
+                    $this->success('绑定成功','/Named/search',3);
+                }
             }
         } else {
             $this->redirect();

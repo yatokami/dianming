@@ -23,11 +23,11 @@
 
             <div class="am-header-right am-header-nav">
                 <gt name="uname" value="0">
-                    <a data-am-modal="{target: '#info'}">{$uname}
+                    <a data-am-modal="{target: '#info'}" >{$uname}
                         <i class="am-header-icon am-icon-sign-out"></i>
                     </a>
                 <else/>
-                    <a href="{:U('/Admin/Login/logout')}">
+                    <a href="{:U('/Admin/login/logout')}">
                         <i class="am-header-icon am-icon-sign-in"></i>
                     </a>
                 </gt>
@@ -61,11 +61,14 @@
     </div>
 
     <div class="am-modal-actions" id="info">
-        <div class="am-modal-actions-group">
-            <ul class="am-list">
-                <li><a href="{:U('/user/passwd')}">修改密码</a></li>
-                <li class="am-modal-actions-danger"><a href="{:U('/user/logout')}">退出</a></li>
-            </ul>
+         <div class="am-modal-actions-group">
+    <ul class="am-list">
+        <!-- <li><a href="{:U('/Admin/Password')}">修改密码</a></li> -->
+        <!-- <li class="am-modal-actions-danger"><a href="{:U('/user/logout')}">退出</a></li> -->
+        <li class="am-modal-actions-danger ">
+            <input type="button" value="退出" onclick="close_wechat()" class="am-btn am-btn-default am-u-sm-12" />
+        </li>
+    </ul>
         </div>
         <div class="am-modal-actions-group">
             <button class="am-btn am-btn-secondary am-btn-block" data-am-modal-close>取消</button>
@@ -87,6 +90,9 @@
                 }  
             };  
         }  
+        function close_wechat(){
+            WeixinJSBridge.call("closeWindow");
+        }
     </script>
 </body>
 </html>

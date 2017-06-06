@@ -5,16 +5,10 @@
 		<form method="post">
 			<div class="am-g am-g-fixed">
 				<div class="am-u-sm-6 am-u-md-6">
-					<select name="class" data-am-selected="{btnWidth: '100%'}">
-						<option value="信息工程系" selected>班级</option>
-		                <option value="15电子信息工程技术1">15电子信息工程技术1</option>
-		                <option value="15计算机网络技术1">15计算机网络技术1</option>
-		                <option value="15计算机网络技术2">15计算机网络技术2</option>
-		                <option value="15计算机应用技术1">15计算机应用技术1</option>
-		                <option value="15计算机应用技术2">15计算机应用技术2</option>
-		                <option value="15软件技术1">15软件技术1</option>
-		                <option value="15嵌入式系统工程1">15嵌入式系统工程1</option>
-		                <option value="15图形图像制作1">15图形图像制作1</option>
+					<select data-am-selected="{btnWidth: '100%',maxHeight: 200}" name="class">
+						<volist name="classes" id="vo">
+							<option value="{$vo.class}">{$vo.class}</option>
+						</volist>
 					</select>
 				</div>
 				<div class="am-u-sm-6 am-u-md-6">

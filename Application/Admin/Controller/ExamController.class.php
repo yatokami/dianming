@@ -8,9 +8,11 @@ class ExamController extends BaseController {
         $this->display();
     }
 
+    //发布页面显示
     public function task() {
         $map["m_id"] = I('m_id');
         $exam_menu = M('exam_menu')->where($map)->field('menu_title,m_id')->find();
+        //当前月份小于9月份，只获取近3届班级
         if(date("m") > "9") {
             $year = date("y");
             $year2 = date("y")-1;
@@ -30,12 +32,14 @@ class ExamController extends BaseController {
     }
 
 
+    //发布试卷
     public function add_task() {
         $data['m_id'] = I('menu_mid');
         $data['menu_title'] = I('menu_title');
         $data['class_name'] = I('class');
         $data['create_time'] = time();
         $hour = I('hour');
+        //截止时间
         $data['end_time'] = time()+60*60*$hour;
 
         $task = M('exam_task');
@@ -49,22 +53,26 @@ class ExamController extends BaseController {
         }
     }
 
+    //删除试卷
     public function del_exam() {
         $m_ids = rtrim(I('m_ids'), ",");
         $where['m_id'] = array('in', $m_ids);
         M('exam_menu')->where($where)->delete();
         M('exam_task')->where($where)->delete();
+        M('exam_log')->where($where)->delete();
         $Model = new \Think\Model();
         $Model->execute("delete a.*,b.* from exam_question as a left join exam_answer as b on a.q_id=b.q_id where m_id in ($m_ids)");
         $this->ajaxReturn("1");
     }
 
+    //新增试卷
     public function add_exam() {
         if(I("action")) {
             $data1["menu_title"] = I("menu_title");
             $data1["create_date"] = time();
             $m_id = M('exam_menu')->add($data1);
             $exams = I("exams");
+            //解析试卷
             for ($i = 0; $i < count($exams); $i++) { 
                 $data2["question"] = $exams[$i]["name"];
                 $data2["m_id"] = $m_id;

@@ -93,11 +93,13 @@
 	function add_exam() {
 		var exams = [];
 		$("div[name='q1']").each(function (i) {
+			//题目json
 			var questions = {
 				"name" : "",
-				"content" : []
+				"content" : [] //答案内容
 			}
 
+			//答案json
 			var answers = {
 				"answer" : "",
 				"mvalue" : 0
@@ -110,7 +112,7 @@
 			answers.mvalue = mvalue;
 			questions.name = question;
 			questions.content.push(answers);
-
+			//遍历错误答案
 			$(this).children("div[name='f_answer']").each(function () {
 				var answers = {
 					"answer" : "",
@@ -122,6 +124,8 @@
 				questions.name = question;
 				questions.content.push(answers);
 			})
+
+			//题目内容和题目加入到试卷
 			exams.push(questions);
 		})
 

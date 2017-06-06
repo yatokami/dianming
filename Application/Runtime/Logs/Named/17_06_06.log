@@ -1,0 +1,156 @@
+[ 2017-06-06T22:40:54+08:00 ] 127.0.0.1 /Named/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0099s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 144104114 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: about G:\UPUPW_AP7.0\htdocs\Application\Named\Controller\SearchController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = '144104114' LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002447s ]
+
+[ 2017-06-06T22:41:20+08:00 ] 127.0.0.1 /Named/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0044s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 144104114 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: about G:\UPUPW_AP7.0\htdocs\Application\Named\Controller\SearchController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = '144104114' LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2017-06-06T22:41:45+08:00 ] 127.0.0.1 /Named/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0042s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 144104144 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: about G:\UPUPW_AP7.0\htdocs\Application\Named\Controller\SearchController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = '144104144' LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2017-06-06T22:42:00+08:00 ] 127.0.0.1 /Named/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003256s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0051s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 144104144 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: about G:\UPUPW_AP7.0\htdocs\Application\Named\Controller\SearchController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = '144104144' LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001600s ]
+
+[ 2017-06-06T22:42:08+08:00 ] 127.0.0.1 /Named/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 144104144 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: about G:\UPUPW_AP7.0\htdocs\Application\Named\Controller\SearchController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = '144104144' LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2017-06-06T22:42:11+08:00 ] 127.0.0.1 /Named/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003192s ]
+SQL: SHOW COLUMNS FROM `named_log` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+SQL: SELECT `user_id`,`user_name` FROM `named_log` WHERE `user_id` = 144104144 AND `come` = 0 AND ( FROM_UNIXTIME(`date`,'%Y-%m-%d') >= '' AND FROM_UNIXTIME(`date`,'%Y-%m-%d') <= ''  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: about G:\UPUPW_AP7.0\htdocs\Application\Named\Controller\SearchController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `named_admin` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `named_admin` WHERE `id` = '144104144' LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+

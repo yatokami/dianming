@@ -10,7 +10,6 @@
 // +----------------------------------------------------------------------
 
 // 应用入口文件
-
 // 检测PHP环境
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
@@ -19,8 +18,17 @@ define('APP_DEBUG',True);
 
 // 定义应用目录
 define('APP_PATH','./Application/');
-// define('BIND_MODULE','Admin');
+ //define('BIND_MODULE','Admins');
 
+require './slog.function.php';
+slog([
+    'force_client_id' => 'slog_e879ca',
+    'host' => 'slog.thinkphp.cn',
+    'error_handle' => true,
+    'show_included_files' => true,
+    'optimize' => true
+], 'config');
+slog(3);
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 

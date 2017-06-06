@@ -3,6 +3,9 @@ namespace Named\Controller;
 use Think\Controller;
 class RevokeController extends BaseController {
 	public function index() {
+		//dump(is_admin());
+		if(is_admin() != '10') $this->error('只有老师有权限销假','/User/login');
+
 		$named_log = M('named_log');  // 实例化named_log表
 		$named_leave = M('named_leave');  // 实例化named_leave表
 		$class = I('post.class');	// 获取post提交的 班级 信息
@@ -40,6 +43,22 @@ class RevokeController extends BaseController {
 			}
 		}
 
+        //获取近3界信息工程系班级信息
+		if(date("m") > "9") {
+                $year = date("y");
+                $year2 = date("y")-1;
+                $year3 = date("y")-2;
+            } else {
+                $year = date("y")-1;
+                $year2 = date("y")-2;
+                $year3 = date("y")-3;
+            }
+            $map2["department"] = "信息工程系";
+            $map2["id"] = array('like', array("$year%","$year2%", "$year3%"), 'or');
+            $class_names = M('user')->where($map2)->field('class')->group('class')->select();
+        
+
+        $this->assign('classes',$class_names);   // 将近3界信息工程系班级信息传递给前台模板
 		$this->assign('user_id',$user_id);	// 把学号传回前台模板
 		$this->assign('class',$class);	// 把班级传回前台模板
 		$this->assign('stime',I('post.stime'));	// 把选择的开始时间传回前台模板
